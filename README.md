@@ -67,9 +67,8 @@
 <br />
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=kausikhussain&theme=radical&no-frame=true&margin-w=10&row=1" />
+  <img src="https://github-profile-trophy-git-main.vercel.app/?username=kausikhussain&theme=radical&no-frame=true&column=4" />
 </div>
-
 ## 🐍 Activity Graph
 
 <div align="center">
