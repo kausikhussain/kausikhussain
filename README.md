@@ -44,8 +44,8 @@
 ## 📊 Analytics & Impact
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kausikhussain&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" height="180" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kausikhussain&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" height="180" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=kausikhussain&show_icons=true&theme=radical&cache_seconds=1800" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kausikhussain&layout=compact&theme=radical" alt="Top Languages" />
 </div>
 
 <br />
@@ -57,7 +57,7 @@
 <br />
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=kausikhussain&theme=dracula&no-frame=true&no-bg=true&margin-w=15" alt="Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=kausikhussain&theme=radical&no-frame=true&margin-w=10" alt="Trophies" />
 </div>
 
 <div align="center">
@@ -67,11 +67,9 @@
 ## 🐍 Activity Graph
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kausikhussain/kausikhussain/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kausikhussain/kausikhussain/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/kausikhussain/kausikhussain/output/github-contribution-grid-snake.svg">
-  </picture>
+  <img src="https://raw.githubusercontent.com/kausikhussain/kausikhussain/output/github-contribution-grid-snake.svg" alt="github contribution grid snake animation" />
+  <br />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kausikhussain&theme=react-dark" alt="Activity Graph" />
 </div>
 
 <div align="center">
@@ -81,12 +79,10 @@
 ## ✨ Featured Work
 
 <div align="center">
-  <a href="https://github.com/kausikhussain/UberClone-Frontend-TS">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=kausikhussain&repo=UberClone-Frontend-TS&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="UberClone project" />
-  </a>
-  <a href="https://github.com/kausikhussain/AmaRide">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=kausikhussain&repo=AmaRide&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="AmaRide project" />
-  </a>
+
+- 🚀 [Uber Clone](https://github.com/kausikhussain/UberClone-Frontend-TS)
+- 🚗 [AmaRide](https://github.com/kausikhussain/AmaRide)
+
 </div>
 
 <div align="center">
