@@ -56,12 +56,11 @@
 </div>
 
 ## 📊 Analytics & Impact
-
 <div align="center">
 
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=kausikhussain&show_icons=true&theme=radical&cache_seconds=86400" />
+  <img height="180em" src="https://github-readme-stats-lilac-theta-98.vercel.app/api?username=kausikhussain&show_icons=true&theme=radical" />
 
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kausikhussain&layout=compact&theme=radical&cache_seconds=86400" />
+  <img height="180em" src="https://github-readme-stats-lilac-theta-98.vercel.app/api/top-langs/?username=kausikhussain&layout=compact&theme=radical" />
 
 </div>
 
