@@ -59,16 +59,16 @@
 
 <div align="center">
 
-  <img height="180em" src="https://gh-stats-gen.vercel.app/api?username=kausikhussain" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=kausikhussain&show_icons=true&theme=radical&cache_seconds=86400" />
 
-  <img height="180em" src="https://gh-stats-gen.vercel.app/api/top-langs?username=kausikhussain" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kausikhussain&layout=compact&theme=radical&cache_seconds=86400" />
 
 </div>
 
 <br />
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=kausikhussain" />
+  <img src="https://github-profile-trophy.vercel.app/?username=kausikhussain&theme=radical" />
 </div>
 
 ## 🐍 Activity Graph
