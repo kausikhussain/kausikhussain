@@ -46,7 +46,7 @@
     </td>
     <td width="50%" align="center">
       <b>☁️ Cloud & Tools</b><br /><br />
-      <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,docker&theme=dark" />
+      <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,docker,aws,gcp&theme=dark" />
     </td>
   </tr>
 </table>
