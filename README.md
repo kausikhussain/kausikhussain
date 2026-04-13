@@ -31,21 +31,21 @@
 <table align="center" width="100%">
   <tr>
     <td width="50%" align="center">
-      <h4>🖥️ Languages</h4>
+      <b>🖥️ Languages</b><br /><br />
       <img src="https://skillicons.dev/icons?i=java,python,c,cpp,dart,ts,js&theme=dark" />
     </td>
     <td width="50%" align="center">
-       <h4>🎨 Libraries & Frameworks</h4>
+      <b>🎨 Libraries & Frameworks</b><br /><br />
       <img src="https://skillicons.dev/icons?i=react,html,css,flutter,spring,nodejs&theme=dark" />
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
-      <h4>🗄️ Databases</h4>
+      <b>🗄️ Databases</b><br /><br />
       <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql&theme=dark" />
     </td>
     <td width="50%" align="center">
-      <h4>☁️ Cloud & Tools</h4>
+      <b>☁️ Cloud & Tools</b><br /><br />
       <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,docker&theme=dark" />
     </td>
   </tr>
