@@ -58,24 +58,17 @@
 ## 📊 Analytics & Impact
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=kausikhussain&show_icons=true&theme=radical&hide_border=true&cache_seconds=1800" alt="GitHub Stats" />
-  <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=kausikhussain&layout=compact&theme=radical&hide_border=true&cache_seconds=1800" alt="Top Languages" />
+
+  <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=kausikhussain&show_icons=true&theme=radical" />
+
+  <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=kausikhussain&layout=compact&theme=radical" />
+
 </div>
 
 <br />
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kausikhussain&theme=tokyonight" alt="Summary Poster" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=kausikhussain&theme=radical&no-frame=true&margin-w=10" alt="Trophies" />
-</div>
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=kausikhussain&theme=radical&no-frame=true&column=6" />
 </div>
 
 ## 🐍 Activity Graph
