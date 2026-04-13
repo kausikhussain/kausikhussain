@@ -44,8 +44,8 @@
 ## 📊 Analytics & Impact
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kausikhussain&show_icons=true&theme=radical&cache_seconds=1800" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kausikhussain&layout=compact&theme=radical" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=kausikhussain&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kausikhussain&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
 </div>
 
 <br />
@@ -69,7 +69,7 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/kausikhussain/kausikhussain/output/github-contribution-grid-snake.svg" alt="github contribution grid snake animation" />
   <br />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kausikhussain&theme=react-dark" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kausikhussain&theme=react-dark&hide_border=true" alt="Activity Graph" />
 </div>
 
 <div align="center">
