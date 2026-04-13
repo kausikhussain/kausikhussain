@@ -76,18 +76,6 @@
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 </div>
 
-## ✨ Featured Work
-
-<div align="center">
-
-- 🚀 [Uber Clone](https://github.com/kausikhussain/UberClone-Frontend-TS)
-- 🚗 [AmaRide](https://github.com/kausikhussain/AmaRide)
-
-</div>
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
-</div>
 
 ## 📬 Let's Connect
 
@@ -106,8 +94,8 @@
 <br />
 
 <div align="center">
-  <h3>⚡ Fun Fact</h3>
-  <p><i>"I write code so I don't have to talk to people, but my code talks to APIs all day."</i></p>
+  <h3>⚡ Developer Mindset</h3>
+  <p><i>"I don’t always write perfect code, but I always improve it."</i></p>
 </div>
 
 <div align="center">
