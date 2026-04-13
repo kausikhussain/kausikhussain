@@ -22,20 +22,34 @@
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 </div>
 
-## 🛠️ Tech Arsenal
+<!-- ========================================== -->
+<!-- 🧩 TECH STACK RADAR                        -->
+<!-- ========================================== -->
 
-<div align="center">
-  <p><strong>Languages</strong></p>
-  <img src="https://skillicons.dev/icons?i=java,python,c,cpp,dart,ts,js&theme=dark" alt="Languages Overview" />
-  <br /><br />
-  
-  <p><strong>Frontend & Mobile</strong></p>
-  <img src="https://skillicons.dev/icons?i=react,html,css,flutter&theme=dark" alt="Frontend and Mobile Skills" />
-  <br /><br />
+<h2 align="center">🧩 Tech Stack Radar</h2>
 
-  <p><strong>Backend & Databases</strong></p>
-  <img src="https://skillicons.dev/icons?i=spring,nodejs,mongodb,postgres,mysql&theme=dark" alt="Backend and Database Skills" />
-</div>
+<table align="center" width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <h4>🖥️ Languages</h4>
+      <img src="https://skillicons.dev/icons?i=java,python,c,cpp,dart,ts,js&theme=dark" />
+    </td>
+    <td width="50%" align="center">
+       <h4>🎨 Libraries & Frameworks</h4>
+      <img src="https://skillicons.dev/icons?i=react,html,css,flutter,spring,nodejs&theme=dark" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <h4>🗄️ Databases</h4>
+      <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql&theme=dark" />
+    </td>
+    <td width="50%" align="center">
+      <h4>☁️ Cloud & Tools</h4>
+      <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,docker&theme=dark" />
+    </td>
+  </tr>
+</table>
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
