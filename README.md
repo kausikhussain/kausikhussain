@@ -22,31 +22,18 @@
 <table align="center" width="100%">
   <tr>
     <td width="35%" align="center" valign="top">
-      <h3>👨‍💻 Profile Status</h3>
-      <br />
+      <h3>👨‍💻 Profile Status</h3><br />
       <img src="https://github.com/kausikhussain.png" width="140" style="border-radius: 50%;" />
       <h2>Kausik Hussain</h2>
-      <p><i>Full Stack Developer<br/>AI/ML Enthusiast | DSA Learner</i></p>
-      <br />
-      <p align="left">
-        <b>💡 Focus:</b> Scalable Web & Native Apps<br/>
-        <b>🌱 Learning:</b> Distributed Systems<br/>
-        <b>🎯 Goal:</b> Top-tier Tech Innovator
-      </p>
-      <br />
+      <p><i>Full Stack Developer<br/>AI/ML Enthusiast | DSA Learner</i></p><br />
+      <p align="left"><b>💡 Focus:</b> Scalable Web & Native Apps<br/><b>🌱 Learning:</b> Distributed Systems<br/><b>🎯 Goal:</b> Top-tier Tech Innovator</p><br />
     </td>
-    
     <td width="65%" align="center" valign="top">
-      <h3>📊 Analytics Overview</h3>
-      <br />
-      <a href="https://github.com/kausikhussain">
-        <img src="https://github-readme-stats.vercel.app/api?username=kausikhussain&show_icons=true&theme=radical&hide_border=true&cache_seconds=1800" width="48%" />
-      </a>
-      <a href="https://github.com/kausikhussain">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kausikhussain&layout=compact&theme=radical&hide_border=true&cache_seconds=1800" width="48%" />
-      </a>
+      <h3>📊 Analytics Overview</h3><br />
+      <a href="https://github.com/kausikhussain"><img src="https://github-readme-stats.vercel.app/api?username=kausikhussain&show_icons=true&theme=radical&hide_border=true&cache_seconds=1800" width="48%" /></a>
+      <a href="https://github.com/kausikhussain"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kausikhussain&layout=compact&theme=radical&hide_border=true&cache_seconds=1800" width="48%" /></a>
       <br /><br />
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kausikhussain&theme=radical" width="98%" />
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kausikhussain&theme=tokyonight" width="98%" />
     </td>
   </tr>
 </table>
@@ -111,26 +98,18 @@
 <table align="center" width="100%">
   <tr>
     <td width="50%" align="center">
-      <a href="https://github.com/kausikhussain/UberClone-Frontend-TS">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=kausikhussain&repo=UberClone-Frontend-TS&theme=radical&hide_border=true" />
-      </a>
+      <a href="https://github.com/kausikhussain/UberClone-Frontend-TS"><img src="https://github-readme-stats.vercel.app/api/pin/?username=kausikhussain&repo=UberClone-Frontend-TS&theme=radical&hide_border=true" /></a>
     </td>
     <td width="50%" align="center">
-      <a href="https://github.com/kausikhussain/AmaRide">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=kausikhussain&repo=AmaRide&theme=radical&hide_border=true" />
-      </a>
+      <a href="https://github.com/kausikhussain/AmaRide"><img src="https://github-readme-stats.vercel.app/api/pin/?username=kausikhussain&repo=AmaRide&theme=radical&hide_border=true" /></a>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
-      <a href="https://github.com/kausikhussain/VeriomeX-UI">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=kausikhussain&repo=VeriomeX-UI&theme=radical&hide_border=true" />
-      </a>
+      <a href="https://github.com/kausikhussain/VeriomeX-UI"><img src="https://github-readme-stats.vercel.app/api/pin/?username=kausikhussain&repo=VeriomeX-UI&theme=radical&hide_border=true" /></a>
     </td>
     <td width="50%" align="center">
-      <a href="https://github.com/kausikhussain/Kausik-Portfolio">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=kausikhussain&repo=Kausik-Portfolio&theme=radical&hide_border=true" />
-      </a>
+      <a href="https://github.com/kausikhussain/Kausik-Portfolio"><img src="https://github-readme-stats.vercel.app/api/pin/?username=kausikhussain&repo=Kausik-Portfolio&theme=radical&hide_border=true" /></a>
     </td>
   </tr>
 </table>
