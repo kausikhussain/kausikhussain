@@ -4,9 +4,13 @@
 
   <br /><br />
 
-  <!-- Profile Views Pill -->
+  <!-- Profile Views & Status Pill Badges -->
   <a href="https://github.com/kausikhussain">
     <img src="https://komarev.com/ghpvc/?username=kausikhussain&label=PROFILE%20VIEWS&color=7c3aed&style=for-the-badge" alt="Profile Views" />
+  </a>
+  &nbsp;
+  <a href="https://leetcode.com/u/Kausik_05/">
+    <img src="https://img.shields.io/badge/LEETCODE-PROBLEM%20SOLVER-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" />
   </a>
 
   <br /><br />
@@ -181,33 +185,60 @@
 
 ---
 
-## 📊 Analytics & Contribution Graph
+## 🐍 3D Isometric Contribution Grid & Snake Animation
+
+<div align="center">
+
+  <!-- Bespoke 3D Isometric Vector Snake Visualization -->
+  <img src="./assets/github-contribution-grid-snake-3d.svg" alt="3D Isometric Contribution Grid Snake" width="100%" />
+
+  <br /><br />
+
+  <!-- Live GitHub Action Output Snake Animation (Electric Purple Accent) -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kausikhussain/kausikhussain/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kausikhussain/kausikhussain/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/kausikhussain/kausikhussain/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  </picture>
+
+</div>
+
+<br />
+
+---
+
+## 📊 Analytics, Problem Solving & Activity
 
 <div align="center">
 
   <table border="0">
     <tr>
       <td>
-        <img height="180em" src="https://github-readme-stats-lilac-theta-98.vercel.app/api?username=kausikhussain&show_icons=true&theme=dark&title_color=a78bfa&text_color=e2e8f0&icon_color=38bdf8&bg_color=090d16&border_color=1e293b&hide_border=false" alt="GitHub Stats" />
+        <img height="185em" src="https://github-readme-stats-lilac-theta-98.vercel.app/api?username=kausikhussain&show_icons=true&theme=dark&title_color=a78bfa&text_color=e2e8f0&icon_color=38bdf8&bg_color=090d16&border_color=1e293b&hide_border=false" alt="GitHub Stats" />
       </td>
       <td>
-        <img height="180em" src="https://github-readme-stats-lilac-theta-98.vercel.app/api/top-langs/?username=kausikhussain&layout=compact&theme=dark&title_color=a78bfa&text_color=e2e8f0&bg_color=090d16&border_color=1e293b&hide_border=false" alt="Top Languages" />
+        <img height="185em" src="https://github-readme-stats-lilac-theta-98.vercel.app/api/top-langs/?username=kausikhussain&layout=compact&theme=dark&title_color=a78bfa&text_color=e2e8f0&bg_color=090d16&border_color=1e293b&hide_border=false" alt="Top Languages" />
       </td>
     </tr>
   </table>
 
   <br />
 
-  <!-- Streak Stats -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kausikhussain&theme=dark&background=090d16&border=1e293b&stroke=a78bfa&ring=38bdf8&fire=34d399&currStreakNum=e2e8f0&sideNums=e2e8f0&sideLabels=94a3b8" alt="GitHub Streak" />
+  <!-- LeetCode Problem Solving Widget & Streak -->
+  <table border="0">
+    <tr>
+      <td>
+        <a href="https://leetcode.com/u/Kausik_05/">
+          <img height="175em" src="https://github-readme-leetcode.vercel.app/api?username=Kausik_05&theme=dark" alt="LeetCode Stats" />
+        </a>
+      </td>
+      <td>
+        <img height="175em" src="https://github-readme-streak-stats.herokuapp.com/?user=kausikhussain&theme=dark&background=090d16&border=1e293b&stroke=a78bfa&ring=38bdf8&fire=34d399&currStreakNum=e2e8f0&sideNums=e2e8f0&sideLabels=94a3b8" alt="GitHub Streak" />
+      </td>
+    </tr>
+  </table>
 
-  <br /><br />
-
-  <!-- Contribution Snake -->
-  <h3>🐍 Contribution Activity Matrix</h3>
-  <img src="https://raw.githubusercontent.com/kausikhussain/kausikhussain/output/github-contribution-grid-snake.svg" alt="Snake Contribution Graph" width="100%" />
-
-  <br /><br />
+  <br />
 
   <!-- Activity Graph -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=kausikhussain&theme=react-dark&hide_border=true&bg_color=090d16" alt="Activity Graph" width="100%" />
@@ -258,15 +289,26 @@
 
 ---
 
-## 🎧 Beyond The Code
+## 🎧 Developer Vibe & Beyond The Code
 
 <div align="center">
-  <p>
-    ☕ <b>Powered by Espresso</b> &nbsp;•&nbsp; 
-    🎧 <b>Lo-Fi &amp; Synthwave Enthusiast</b> &nbsp;•&nbsp; 
-    ✨ <b>Obsessed with 60fps Micro-Interactions</b> &nbsp;•&nbsp; 
-    🧪 <b>Always Experimenting with AI</b>
-  </p>
+
+  <table width="100%">
+    <tr>
+      <td width="50%" align="center">
+        <h4>🎵 Coding Vibe &amp; Audio Pulse</h4>
+        <p>☕ <b>Single-Origin Espresso</b> &nbsp;•&nbsp; 🎧 <b>Synthwave / Ambient Lo-Fi</b></p>
+        <p><i>"Code in silence, let execution make the noise."</i></p>
+      </td>
+      <td width="50%" align="center">
+        <h4>💡 Developer Mindset</h4>
+        <blockquote>
+          "I don't just write code; I design digital experiences that feel alive."
+        </blockquote>
+      </td>
+    </tr>
+  </table>
+
 </div>
 
 <br />

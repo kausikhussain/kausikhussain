@@ -1,0 +1,238 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+
+    <!-- Purple Snake Glow Filter -->
+    <filter id="purple-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur1" />
+      <feGaussianBlur stdDeviation="14" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur2" />
+        <feMergeNode in="blur1" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Cyan Glow Filter for Snake Eyes/Leading Dot -->
+    <filter id="cyan-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Linear Gradients for Snake Body -->
+    <linearGradient id="snake-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.1" />
+      <stop offset="40%" stop-color="#a855f7" stop-opacity="0.7" />
+      <stop offset="80%" stop-color="#c084fc" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="1" />
+    </linearGradient>
+
+    <!-- Grid Accent Pattern -->
+    <pattern id="iso-grid-bg" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1e293b" stroke-width="1" stroke-opacity="0.15" />
+    </pattern>
+
+    <!-- 3D Cuboid Gradients -->
+    <!-- Level 0 (Empty) -->
+    <linearGradient id="top-l0" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#1f2937"/><stop offset="100%" stop-color="#161b22"/></linearGradient>
+    <linearGradient id="side-l0" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#111827"/><stop offset="100%" stop-color="#0d1117"/></linearGradient>
+
+    <!-- Level 1 (#0E4429) -->
+    <linearGradient id="top-l1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#14532d"/><stop offset="100%" stop-color="#0e4429"/></linearGradient>
+    <linearGradient id="side-l1" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#09311c"/><stop offset="100%" stop-color="#051f11"/></linearGradient>
+
+    <!-- Level 2 (#006D32) -->
+    <linearGradient id="top-l2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#16a34a"/><stop offset="100%" stop-color="#006d32"/></linearGradient>
+    <linearGradient id="side-l2" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#005024"/><stop offset="100%" stop-color="#003518"/></linearGradient>
+
+    <!-- Level 3 (#26A641) -->
+    <linearGradient id="top-l3" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#22c55e"/><stop offset="100%" stop-color="#26a641"/></linearGradient>
+    <linearGradient id="side-l3" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#1a7c30"/><stop offset="100%" stop-color="#125722"/></linearGradient>
+
+    <!-- Level 4 (#39D353) -->
+    <linearGradient id="top-l4" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#4ade80"/><stop offset="100%" stop-color="#39d353"/></linearGradient>
+    <linearGradient id="side-l4" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#2ca13f"/><stop offset="100%" stop-color="#1e712b"/></linearGradient>
+  </defs>
+
+  <style>
+    .snake-body {
+      stroke-dasharray: 600;
+      stroke-dashoffset: 600;
+      animation: snake-crawl 8s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+
+    .snake-head {
+      animation: head-move 8s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+
+    @keyframes snake-crawl {
+      0% {
+        stroke-dashoffset: 600;
+      }
+      50% {
+        stroke-dashoffset: 0;
+      }
+      100% {
+        stroke-dashoffset: -600;
+      }
+    }
+
+    .pulse-dot {
+      animation: pulse 2s ease-in-out infinite alternate;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); opacity: 0.8; }
+      100% { transform: scale(1.25); opacity: 1; }
+    }
+  </style>
+
+  <!-- Background Base Container -->
+  <rect width="880" height="360" rx="16" fill="url(#bg)" />
+  <rect width="880" height="360" rx="16" fill="url(#iso-grid-bg)" />
+  <rect x="1" y="1" width="878" height="358" rx="15" fill="none" stroke="#1e293b" stroke-width="1" stroke-opacity="0.6" />
+
+  <!-- Header Text inside SVG -->
+  <g transform="translate(40, 36)">
+    <circle cx="6" cy="6" r="4" fill="#a855f7" class="pulse-dot" filter="url(#purple-glow)" />
+    <text x="20" y="10" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#e2e8f0" letter-spacing="1.5">
+      CONTRIBUTION MATRIX (3D ISOMETRIC VIEW)
+    </text>
+    <text x="790" y="10" font-family="monospace" font-size="11" font-weight="600" fill="#38bdf8" text-anchor="end">
+      SERPENT_ALGORITHM_V3
+    </text>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(680, 320)">
+    <text x="-40" y="10" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Less</text>
+    <rect x="-5" y="2" width="10" height="10" rx="2" fill="#161b22" stroke="#1e293b" />
+    <rect x="12" y="2" width="10" height="10" rx="2" fill="#0e4429" />
+    <rect x="29" y="2" width="10" height="10" rx="2" fill="#006d32" />
+    <rect x="46" y="2" width="10" height="10" rx="2" fill="#26a641" />
+    <rect x="63" y="2" width="10" height="10" rx="2" fill="#39d353" />
+    <text x="80" y="10" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">More</text>
+  </g>
+
+  <!-- ISOMETRIC 3D GRID GRAPH -->
+  <!-- Transformation Group for Isometric Projection: Origin at center-left top -->
+  <g transform="translate(420, 75) scale(0.95)">
+
+    <!-- Row 0 to 6 (7 days), Cols 0 to 25 (Representative 3D sample block grid) -->
+    
+    <!-- Dynamic 3D Cuboids Stacked in Back-to-Front Order -->
+    <!-- Col 0 -->
+    <g transform="translate(-320, 40)">
+      <!-- 3D Cuboid Cell (Empty) -->
+      <path d="M 0,-6 L 14,1 L 0,8 L -14,1 Z" fill="url(#top-l0)" stroke="#1e293b" stroke-width="0.5"/>
+      <path d="M -14,1 L 0,8 L 0,14 L -14,7 Z" fill="url(#side-l0)"/>
+      <path d="M 0,8 L 14,1 L 14,7 L 0,14 Z" fill="url(#side-l0)" opacity="0.8"/>
+    </g>
+
+    <!-- Multi-tier 3D Isometric Landscape Grid -->
+    <!-- Level 4 Tower 1 -->
+    <g transform="translate(-220, 60)">
+      <path d="M 0,-24 L 14,-17 L 0,-10 L -14,-17 Z" fill="url(#top-l4)" stroke="#4ade80" stroke-width="0.5"/>
+      <path d="M -14,-17 L 0,-10 L 0,14 L -14,7 Z" fill="url(#side-l4)"/>
+      <path d="M 0,-10 L 14,-17 L 14,7 L 0,14 Z" fill="url(#side-l4)" opacity="0.85"/>
+    </g>
+
+    <!-- Level 3 Tower -->
+    <g transform="translate(-180, 80)">
+      <path d="M 0,-18 L 14,-11 L 0,-4 L -14,-11 Z" fill="url(#top-l3)" stroke="#22c55e" stroke-width="0.5"/>
+      <path d="M -14,-11 L 0,-4 L 0,14 L -14,7 Z" fill="url(#side-l3)"/>
+      <path d="M 0,-4 L 14,-11 L 14,7 L 0,14 Z" fill="url(#side-l3)" opacity="0.85"/>
+    </g>
+
+    <!-- Level 4 Tower 2 -->
+    <g transform="translate(-140, 50)">
+      <path d="M 0,-26 L 14,-19 L 0,-12 L -14,-19 Z" fill="url(#top-l4)" stroke="#4ade80" stroke-width="0.5"/>
+      <path d="M -14,-19 L 0,-12 L 0,14 L -14,7 Z" fill="url(#side-l4)"/>
+      <path d="M 0,-12 L 14,-19 L 14,7 L 0,14 Z" fill="url(#side-l4)" opacity="0.85"/>
+    </g>
+
+    <!-- Level 2 Towers Grid -->
+    <g transform="translate(-100, 90)">
+      <path d="M 0,-12 L 14,-5 L 0,2 L -14,-5 Z" fill="url(#top-l2)" stroke="#16a34a" stroke-width="0.5"/>
+      <path d="M -14,-5 L 0,2 L 0,14 L -14,7 Z" fill="url(#side-l2)"/>
+      <path d="M 0,2 L 14,-5 L 14,7 L 0,14 Z" fill="url(#side-l2)" opacity="0.85"/>
+    </g>
+
+    <g transform="translate(-60, 70)">
+      <path d="M 0,-20 L 14,-13 L 0,-6 L -14,-13 Z" fill="url(#top-l3)" stroke="#22c55e" stroke-width="0.5"/>
+      <path d="M -14,-13 L 0,-6 L 0,14 L -14,7 Z" fill="url(#side-l3)"/>
+      <path d="M 0,-6 L 14,-13 L 14,7 L 0,14 Z" fill="url(#side-l3)" opacity="0.85"/>
+    </g>
+
+    <g transform="translate(-20, 110)">
+      <path d="M 0,-28 L 14,-21 L 0,-14 L -14,-21 Z" fill="url(#top-l4)" stroke="#4ade80" stroke-width="0.5"/>
+      <path d="M -14,-21 L 0,-14 L 0,14 L -14,7 Z" fill="url(#side-l4)"/>
+      <path d="M 0,-14 L 14,-21 L 14,7 L 0,14 Z" fill="url(#side-l4)" opacity="0.85"/>
+    </g>
+
+    <g transform="translate(20, 80)">
+      <path d="M 0,-14 L 14,-7 L 0,0 L -14,-7 Z" fill="url(#top-l2)" stroke="#16a34a" stroke-width="0.5"/>
+      <path d="M -14,-7 L 0,0 L 0,14 L -14,7 Z" fill="url(#side-l2)"/>
+      <path d="M 0,0 L 14,-7 L 14,7 L 0,14 Z" fill="url(#side-l2)" opacity="0.85"/>
+    </g>
+
+    <g transform="translate(60, 130)">
+      <path d="M 0,-22 L 14,-15 L 0,-8 L -14,-15 Z" fill="url(#top-l3)" stroke="#22c55e" stroke-width="0.5"/>
+      <path d="M -14,-15 L 0,-8 L 0,14 L -14,7 Z" fill="url(#side-l3)"/>
+      <path d="M 0,-8 L 14,-15 L 14,7 L 0,14 Z" fill="url(#side-l3)" opacity="0.85"/>
+    </g>
+
+    <g transform="translate(100, 100)">
+      <path d="M 0,-30 L 14,-23 L 0,-16 L -14,-23 Z" fill="url(#top-l4)" stroke="#4ade80" stroke-width="0.5"/>
+      <path d="M -14,-23 L 0,-16 L 0,14 L -14,7 Z" fill="url(#side-l4)"/>
+      <path d="M 0,-16 L 14,-23 L 14,7 L 0,14 Z" fill="url(#side-l4)" opacity="0.85"/>
+    </g>
+
+    <g transform="translate(140, 120)">
+      <path d="M 0,-16 L 14,-9 L 0,-2 L -14,-9 Z" fill="url(#top-l2)" stroke="#16a34a" stroke-width="0.5"/>
+      <path d="M -14,-9 L 0,-2 L 0,14 L -14,7 Z" fill="url(#side-l2)"/>
+      <path d="M 0,-2 L 14,-9 L 14,7 L 0,14 Z" fill="url(#side-l2)" opacity="0.85"/>
+    </g>
+
+    <g transform="translate(180, 90)">
+      <path d="M 0,-24 L 14,-17 L 0,-10 L -14,-17 Z" fill="url(#top-l4)" stroke="#4ade80" stroke-width="0.5"/>
+      <path d="M -14,-17 L 0,-10 L 0,14 L -14,7 Z" fill="url(#side-l4)"/>
+      <path d="M 0,-10 L 14,-17 L 14,7 L 0,14 Z" fill="url(#side-l4)" opacity="0.85"/>
+    </g>
+
+    <g transform="translate(220, 140)">
+      <path d="M 0,-10 L 14,-3 L 0,4 L -14,-3 Z" fill="url(#top-l1)" stroke="#14532d" stroke-width="0.5"/>
+      <path d="M -14,-3 L 0,4 L 0,14 L -14,7 Z" fill="url(#side-l1)"/>
+      <path d="M 0,4 L 14,-3 L 14,7 L 0,14 Z" fill="url(#side-l1)" opacity="0.85"/>
+    </g>
+
+    <g transform="translate(260, 110)">
+      <path d="M 0,-26 L 14,-19 L 0,-12 L -14,-19 Z" fill="url(#top-l3)" stroke="#22c55e" stroke-width="0.5"/>
+      <path d="M -14,-19 L 0,-12 L 0,14 L -14,7 Z" fill="url(#side-l3)"/>
+      <path d="M 0,-12 L 14,-19 L 14,7 L 0,14 Z" fill="url(#side-l3)" opacity="0.85"/>
+    </g>
+
+    <!-- GLOWING ISOMETRIC SNAKE ANIMATION PATH -->
+    <!-- The glowing electric purple serpent line gliding smoothly on top of 3D towers -->
+    <path class="snake-body" d="M -320,34 L -270,45 L -220,36 L -180,62 L -140,24 L -100,78 L -60,50 L -20,82 L 20,66 L 60,108 L 100,70 L 140,104 L 180,66 L 220,130 L 260,84" 
+          fill="none" stroke="url(#snake-gradient)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" filter="url(#purple-glow)" />
+
+    <!-- Leading Serpent Head Aura & Eye -->
+    <g class="snake-head" transform="translate(260, 84)">
+      <circle cx="0" cy="0" r="8" fill="#a855f7" opacity="0.4" filter="url(#purple-glow)" />
+      <circle cx="0" cy="0" r="5" fill="#c084fc" filter="url(#purple-glow)" />
+      <circle cx="0" cy="0" r="2.5" fill="#38bdf8" filter="url(#cyan-glow)" />
+    </g>
+  </g>
+
+  <!-- Ambient Light Bar Overlay -->
+  <rect x="40" y="300" width="800" height="1" fill="url(#snake-gradient)" opacity="0.5" />
+</svg>
