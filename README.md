@@ -229,7 +229,7 @@
     <tr>
       <td>
         <a href="https://leetcode.com/u/Kausik_05/">
-          <img height="175em" src="https://github-readme-leetcode.vercel.app/api?username=Kausik_05&theme=dark" alt="LeetCode Stats" />
+          <img height="175em" src="https://leetcard.jacoblin.cool/Kausik_05?theme=dark" alt="LeetCode Stats" />
         </a>
       </td>
       <td>
