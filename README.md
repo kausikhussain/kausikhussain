@@ -233,7 +233,7 @@
         </a>
       </td>
       <td>
-        <img height="175em" src="https://github-readme-streak-stats.herokuapp.com/?user=kausikhussain&theme=dark&background=090d16&border=1e293b&stroke=a78bfa&ring=38bdf8&fire=34d399&currStreakNum=e2e8f0&sideNums=e2e8f0&sideLabels=94a3b8" alt="GitHub Streak" />
+        <img height="175em" src="https://streak-stats.demolab.com/?user=kausikhussain&theme=dark&background=090d16&border=1e293b&stroke=a78bfa&ring=38bdf8&fire=34d399&currStreakNum=e2e8f0&sideNums=e2e8f0&sideLabels=94a3b8" alt="GitHub Streak" />
       </td>
     </tr>
   </table>
