@@ -214,10 +214,10 @@
   <table border="0">
     <tr>
       <td>
-        <img height="185em" src="https://github-readme-stats-lilac-theta-98.vercel.app/api?username=kausikhussain&show_icons=true&theme=dark&title_color=a78bfa&text_color=e2e8f0&icon_color=38bdf8&bg_color=090d16&border_color=1e293b&hide_border=false" alt="GitHub Stats" />
+        <img height="185em" src="https://github-stats-extended.vercel.app/api?username=kausikhussain&show_icons=true&theme=dark&title_color=a78bfa&text_color=e2e8f0&icon_color=38bdf8&bg_color=090d16&border_color=1e293b&hide_border=false" alt="GitHub Stats" />
       </td>
       <td>
-        <img height="185em" src="https://github-readme-stats-lilac-theta-98.vercel.app/api/top-langs/?username=kausikhussain&layout=compact&theme=dark&title_color=a78bfa&text_color=e2e8f0&bg_color=090d16&border_color=1e293b&hide_border=false" alt="Top Languages" />
+        <img height="185em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=kausikhussain&layout=compact&theme=dark&title_color=a78bfa&text_color=e2e8f0&bg_color=090d16&border_color=1e293b&hide_border=false" alt="Top Languages" />
       </td>
     </tr>
   </table>
