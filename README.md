@@ -1,204 +1,235 @@
 <div align="center">
+
   <!-- Hero Banner -->
-  <img src="./assets/header-banner.svg" alt="Kausik Hussain Banner" width="100%" />
+  <img src="./assets/header-banner.svg" alt="Kausik Hussain — AI/ML · Full-Stack · 3D Web" width="100%" />
 
   <br /><br />
 
-  <!-- Profile Views & Status Pill Badges -->
+  <!-- Typing SVG -->
   <a href="https://github.com/kausikhussain">
-    <img src="https://komarev.com/ghpvc/?username=kausikhussain&label=PROFILE%20VIEWS&color=7c3aed&style=for-the-badge" alt="Profile Views" />
+    <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=500&size=22&pause=1200&color=94A3B8&center=true&vCenter=true&width=680&lines=Building+intelligent+systems+and+immersive+digital+experiences." alt="Typing SVG" />
   </a>
+
+  <br />
+
+  <a href="https://github.com/kausikhussain">
+    <img src="https://komarev.com/ghpvc/?username=kausikhussain&label=Profile+Views&color=1e293b&style=flat&labelColor=0f172a" alt="Profile Views" />
+  </a>
+
+</div>
+
+<br />
+
+## About
+
+I work across **AI/ML**, **full-stack engineering**, and **3D web** — combining machine learning pipelines, scalable backend architectures, and interactive WebGL interfaces into products that are fast, functional, and visually precise.
+
+<br />
+
+## What I Build
+
+**AI Systems** — ML pipelines, computer vision, LLM-powered features  
+**Interactive 3D Web** — Three.js scenes, WebGL shaders, scroll-driven motion  
+**Full-Stack Products** — End-to-end platforms with React/Next.js frontends and robust APIs  
+**Intelligent Interfaces** — Performance-first UI with animation, responsive design, and real-time data
+
+<br />
+
+---
+
+## Core Stack
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center"><b>AI / ML</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" />
+      <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white" alt="TensorFlow" />
+      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" alt="PyTorch" />
+      <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white" alt="OpenCV" />
+      <img src="https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white" alt="OpenAI" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Frontend & 3D</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React" />
+      <img src="https://img.shields.io/badge/Next.js-000?style=flat&logo=nextdotjs&logoColor=white" alt="Next.js" />
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript" />
+      <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white" alt="Tailwind" />
+      <img src="https://img.shields.io/badge/Three.js-000?style=flat&logo=threedotjs&logoColor=white" alt="Three.js" />
+      <img src="https://img.shields.io/badge/GSAP-88CE02?style=flat&logo=greensock&logoColor=white" alt="GSAP" />
+      <img src="https://img.shields.io/badge/Framer_Motion-05F?style=flat&logo=framer&logoColor=white" alt="Framer Motion" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Backend</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white" alt="Node.js" />
+      <img src="https://img.shields.io/badge/Express-000?style=flat&logo=express&logoColor=white" alt="Express" />
+      <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white" alt="Spring Boot" />
+      <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white" alt="Java" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Data & Tools</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white" alt="MongoDB" />
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+      <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" alt="MySQL" />
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker" />
+      <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" alt="Git" />
+      <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white" alt="Figma" />
+      <img src="https://img.shields.io/badge/Vercel-000?style=flat&logo=vercel&logoColor=white" alt="Vercel" />
+    </td>
+  </tr>
+</table>
+
+</div>
+
+<br />
+
+---
+
+## Selected Work
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>VERON — Luxury Fashion Platform</h3>
+      <p>A premium menswear e-commerce experience with immersive 3D product visualization, cinematic scroll animations, AI-powered styling suggestions, and a bespoke product customizer.</p>
+      <p><code>Next.js</code> <code>TypeScript</code> <code>Three.js</code> <code>GSAP</code> <code>Tailwind CSS</code> <code>Framer Motion</code></p>
+      <ul>
+        <li>3D product viewer with interactive camera controls</li>
+        <li>Cinematic scroll-driven animations and page transitions</li>
+        <li>Multi-category catalog with INR pricing and size selection</li>
+      </ul>
+      <p>
+        <a href="https://github.com/kausikhussain/VERON"><b>Repository</b></a> &nbsp;·&nbsp;
+        <a href="https://veron-drab.vercel.app"><b>Live Demo</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>DriftX — Streetwear E-Commerce</h3>
+      <p>A high-end monochrome streetwear landing experience with fluid GSAP animations, smooth scroll physics via Lenis, and a responsive product showcase.</p>
+      <p><code>Next.js</code> <code>TypeScript</code> <code>Tailwind CSS</code> <code>GSAP</code> <code>Lenis</code> <code>Framer Motion</code></p>
+      <ul>
+        <li>Video-first hero with cinematic loading sequence</li>
+        <li>Category grid with hover-reveal product cards</li>
+        <li>Smooth scroll physics and micro-interactions</li>
+      </ul>
+      <p>
+        <a href="https://github.com/kausikhussain/DriftX"><b>Repository</b></a> &nbsp;·&nbsp;
+        <a href="https://driftx-phi.vercel.app"><b>Live Demo</b></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>TechNova-S3 — AI Crowd Safety</h3>
+      <p>An AI-powered predictive crowd safety and real-time management platform built for smart city and large-event scenarios.</p>
+      <p><code>Kotlin</code> <code>Android</code> <code>ML Models</code> <code>REST APIs</code></p>
+      <ul>
+        <li>Predictive crowd density analysis using ML</li>
+        <li>Real-time alerts and safety management dashboard</li>
+        <li>Collaborative project — multiple contributors</li>
+      </ul>
+      <p>
+        <a href="https://github.com/kausikhussain/TechNova-S3"><b>Repository</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>VeriomeX — Genomic Data Ownership</h3>
+      <p>A privacy-first genomic data platform combining decentralized storage, smart contracts, and zero-knowledge proofs for secure DNA data ownership.</p>
+      <p><code>TypeScript</code> <code>IPFS</code> <code>Smart Contracts</code> <code>ZK Proofs</code></p>
+      <ul>
+        <li>Decentralized genomic data storage on IPFS</li>
+        <li>Zero-knowledge proof verification for privacy</li>
+        <li>Smart contract-based access control</li>
+      </ul>
+      <p>
+        <a href="https://github.com/kausikhussain/VeriomeX-UI"><b>Repository</b></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Jansehat — AI Healthcare Platform</h3>
+      <p>An intelligent healthcare platform combining clinical workflows, automated patient triage, and AI-assisted medical decision support — built for the Smart India Hackathon.</p>
+      <p><code>React</code> <code>Node.js</code> <code>Express</code> <code>MongoDB</code> <code>ML Models</code></p>
+      <ul>
+        <li>AI-powered symptom analysis and triage assignment</li>
+        <li>Doctor dashboard with real-time appointment queueing</li>
+        <li>Smart India Hackathon project</li>
+      </ul>
+      <p>
+        <a href="https://github.com/kausikhussain/Jansehat"><b>Repository</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>SiliconQuest</h3>
+      <p>A recent TypeScript project deployed on Vercel.</p>
+      <p><code>TypeScript</code> <code>Vercel</code></p>
+      <p>
+        <a href="https://github.com/kausikhussain/SiliconQuest"><b>Repository</b></a> &nbsp;·&nbsp;
+        <a href="https://siliconquest-rust.vercel.app"><b>Live Demo</b></a>
+      </p>
+      <br />
+      <h4>More Projects</h4>
+      <p>
+        <a href="https://github.com/kausikhussain/CrowdSheild">CrowdSheild</a> ·
+        <a href="https://github.com/kausikhussain/Victus">Victus</a> ·
+        <a href="https://github.com/kausikhussain/AquaOMS">AquaOMS</a> ·
+        <a href="https://github.com/kausikhussain/FreshKart">FreshKart</a> ·
+        <a href="https://github.com/kausikhussain/MedX">MedX</a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+---
+
+## 3D & Creative Engineering
+
+Three.js, WebGL, GSAP, and Framer Motion are core tools — not side experiments. I use them to build scroll-driven product experiences, interactive 3D scenes, and performance-optimized motion design that runs at 60fps in the browser. Projects like **VERON** and **DriftX** demonstrate this across cinematic page transitions, 3D product viewers, and physics-based scroll animations.
+
+<br />
+
+---
+
+## Achievements
+
+- **Smart India Hackathon** — Built **Jansehat**, an AI healthcare triage platform, and contributed to **TechNova-S3**, a crowd safety system
+- **Production Deployments** — Multiple live platforms deployed and maintained on Vercel
+- **Full-Stack Depth** — 53 public repositories spanning AI/ML, full-stack web, mobile (Kotlin/Dart), and DSA
+
+<br />
+
+---
+
+## GitHub Activity
+
+<div align="center">
+
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=kausikhussain&show_icons=true&theme=transparent&title_color=a78bfa&text_color=94a3b8&icon_color=38bdf8&hide_border=true&rank_icon=github" alt="GitHub Stats" />
   &nbsp;
-  <a href="https://leetcode.com/u/Kausik_05/">
-    <img src="https://img.shields.io/badge/LEETCODE-PROBLEM%20SOLVER-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" />
-  </a>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kausikhussain&layout=compact&theme=transparent&title_color=a78bfa&text_color=94a3b8&hide_border=true" alt="Top Languages" />
 
   <br /><br />
 
-  <!-- Animated Typing SVG Header -->
-  <a href="https://github.com/kausikhussain">
-    <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=24&pause=1200&color=38BDF8&center=true&vCenter=true&width=800&lines=AI+%2F+ML+Engineer+%26+Researcher;Full-Stack+%26+3D+Web+Experience+Developer;Crafting+Modern%2C+High-Performance+Digital+Products;UI+%2F+UX+Design+%26+Performance-First+Engineering" alt="Typing SVG" />
-  </a>
-
-</div>
-
-<br />
-
----
-
-## ⚡ Executive Summary
-
-<table width="100%">
-  <tr>
-    <td width="100%" bgcolor="#0b0f19">
-      <br />
-      <p font-size="16px">
-        I am a <b>Full-Stack Developer, AI/ML Enthusiast, and 3D Web Experience Engineer</b> dedicated to building luxury-grade, high-performance digital products. My work bridges complex artificial intelligence models, robust backend architectures, and fluid, interactive 3D web interfaces.
-      </p>
-      <ul>
-        <li>🧠 <b>Artificial Intelligence &amp; ML:</b> Designing intelligent pipelines, computer vision systems, and LLM integrations.</li>
-        <li>🎨 <b>Frontend &amp; 3D Graphics:</b> Sculpting 60fps web experiences using React, Next.js, Three.js, GSAP, and Framer Motion.</li>
-        <li>⚡ <b>Backend Systems &amp; APIs:</b> Engineering resilient, scalable services with Node.js, Express, Spring Boot, and modern databases.</li>
-        <li>💎 <b>Design &amp; Craftsmanship:</b> Creating minimal, functional, and visually striking interfaces inspired by top-tier product design.</li>
-      </ul>
-      <br />
-    </td>
-  </tr>
-</table>
-
-<br />
-
----
-
-## 🛠️ Tech Stack & Ecosystem
-
-<div align="center">
-
-### 🎨 Frontend & 3D Web Graphics
-<p>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white" alt="Three.js" />
-  <img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white" alt="GSAP" />
-  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion" />
-</p>
-
-### ⚡ Backend & System Architecture
-<p>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
-  <img src="https://img.shields.io/badge/REST_APIs-0055FF?style=for-the-badge&logo=fastapi&logoColor=white" alt="REST APIs" />
-</p>
-
-### 🧠 AI & Machine Learning
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="Machine Learning" />
-  <img src="https://img.shields.io/badge/Deep_Learning-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="Deep Learning" />
-  <img src="https://img.shields.io/badge/Computer_Vision-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="Computer Vision" />
-  <img src="https://img.shields.io/badge/LLMs-412991?style=for-the-badge&logo=openai&logoColor=white" alt="LLMs" />
-</p>
-
-### 🗄️ Databases & Storage
-<p>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-</p>
-
-### 💻 Core Programming Languages
-<p>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-</p>
-
-### 🛠️ Infrastructure & Design Tools
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
-</p>
-
-</div>
-
-<br />
-
----
-
-## 🌟 Flagship Projects
-
-<table width="100%">
-  <!-- Project 1: Drift -->
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🛍️ Drift — Ultra-Premium E-Commerce Platform</h3>
-      <p>A flagship, luxury e-commerce web application with dynamic animations, multi-filter engines, wishlist &amp; cart slide-over drawers, and responsive product dialogs.</p>
-      <p><b>Tech Stack:</b> <code>Next.js 14</code> • <code>TypeScript</code> • <code>Tailwind CSS</code> • <code>Framer Motion</code></p>
-      <ul>
-        <li>✨ Gender collection segregation &amp; multi-parameter filter engine.</li>
-        <li>🛒 Live INR cart drawer with threshold progress bar.</li>
-        <li>🔍 Quick View modal dialogs &amp; toast notification manager.</li>
-      </ul>
-      <p>
-        <a href="https://github.com/kausikhussain/drift"><b>📁 Repository</b></a> &nbsp;|&nbsp; 
-        <a href="https://kausik-portfolio-psi.vercel.app/"><b>🚀 Live Demo</b></a>
-      </p>
-    </td>
-    <!-- Project 2: JanSehat -->
-    <td width="50%" valign="top">
-      <h3>🏥 JanSehat — AI Healthcare &amp; Patient Management</h3>
-      <p><b>Smart India Hackathon Finalist Project</b> — An intelligent healthcare platform simplifying clinical workflows, automated patient triage, and real-time medical diagnostics.</p>
-      <p><b>Tech Stack:</b> <code>React</code> • <code>Node.js</code> • <code>Express</code> • <code>MongoDB</code> • <code>ML Models</code></p>
-      <ul>
-        <li>🏆 National SIH Finalist solution for public health management.</li>
-        <li>🤖 Automated AI symptom analysis &amp; triage assignment.</li>
-        <li>📊 Doctor dashboard &amp; real-time appointment queueing.</li>
-      </ul>
-      <p>
-        <a href="https://github.com/kausikhussain/jansehat"><b>📁 Repository</b></a> &nbsp;|&nbsp; 
-        <a href="https://kausik-portfolio-psi.vercel.app/"><b>🚀 Project Showcase</b></a>
-      </p>
-    </td>
-  </tr>
-  <!-- Project 3: Victus & Project 4: 3D Portfolio -->
-  <tr>
-    <td width="50%" valign="top">
-      <h3>⚡ Victus — AI-Driven Full-Stack Application</h3>
-      <p>An intelligent web ecosystem engineered for automated data processing, machine learning predictions, and high-concurrency API handling.</p>
-      <p><b>Tech Stack:</b> <code>Python</code> • <code>PyTorch</code> • <code>React</code> • <code>REST APIs</code> • <code>Tailwind CSS</code></p>
-      <ul>
-        <li>🧠 Automated machine learning model execution.</li>
-        <li>📈 Interactive analytics dashboards and real-time visualizers.</li>
-        <li>⚡ Optimized backend API response rates under heavy load.</li>
-      </ul>
-      <p>
-        <a href="https://github.com/kausikhussain/victus"><b>📁 Repository</b></a> &nbsp;|&nbsp; 
-        <a href="https://kausik-portfolio-psi.vercel.app/"><b>🚀 Live Demo</b></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>✨ 3D Interactive Portfolio — Luxury Web Experience</h3>
-      <p>A web experience pushing the boundaries of browser capabilities with 3D canvas shaders, smooth scroll triggers, and fluid micro-animations.</p>
-      <p><b>Tech Stack:</b> <code>Next.js</code> • <code>Three.js</code> • <code>GSAP</code> • <code>Framer Motion</code> • <code>Tailwind CSS</code></p>
-      <ul>
-        <li>🌐 Interactive WebGL 3D models and dynamic camera controls.</li>
-        <li>💫 Glassmorphic dark layout with responsive grid mechanics.</li>
-        <li>⚡ Perfect performance score with lazy-loaded 3D assets.</li>
-      </ul>
-      <p>
-        <a href="https://github.com/kausikhussain"><b>📁 Repository</b></a> &nbsp;|&nbsp; 
-        <a href="https://kausik-portfolio-psi.vercel.app/"><b>🚀 Explore Portfolio</b></a>
-      </p>
-    </td>
-  </tr>
-</table>
-
-<br />
-
----
-
-## 🐍 3D Isometric Contribution Grid & Snake Animation
-
-<div align="center">
-
-  <!-- Bespoke 3D Isometric Vector Snake Visualization -->
-  <img src="./assets/github-contribution-grid-snake-3d.svg" alt="3D Isometric Contribution Grid Snake" width="100%" />
+  <img height="170" src="https://streak-stats.demolab.com/?user=kausikhussain&theme=transparent&hide_border=true&ring=38bdf8&fire=a78bfa&currStreakLabel=94a3b8&sideLabels=64748b&currStreakNum=e2e8f0&sideNums=e2e8f0&dates=475569" alt="GitHub Streak" />
 
   <br /><br />
 
-  <!-- Live GitHub Action Output Snake Animation (Electric Purple Accent) -->
+  <!-- Contribution Snake -->
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kausikhussain/kausikhussain/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kausikhussain/kausikhussain/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/kausikhussain/kausikhussain/output/github-contribution-grid-snake-dark.svg" width="100%" />
+    <img alt="Contribution Snake" src="https://raw.githubusercontent.com/kausikhussain/kausikhussain/output/github-contribution-grid-snake-dark.svg" width="100%" />
   </picture>
 
 </div>
@@ -207,147 +238,41 @@
 
 ---
 
-## 📊 Analytics, Problem Solving & Activity
+## Problem Solving
 
 <div align="center">
-
-  <table border="0">
-    <tr>
-      <td>
-        <img height="185em" src="https://github-stats-extended.vercel.app/api?username=kausikhussain&show_icons=true&theme=dark&title_color=a78bfa&text_color=e2e8f0&icon_color=38bdf8&bg_color=090d16&border_color=1e293b&hide_border=false" alt="GitHub Stats" />
-      </td>
-      <td>
-        <img height="185em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=kausikhussain&layout=compact&theme=dark&title_color=a78bfa&text_color=e2e8f0&bg_color=090d16&border_color=1e293b&hide_border=false" alt="Top Languages" />
-      </td>
-    </tr>
-  </table>
-
-  <br />
-
-  <!-- LeetCode Problem Solving Widget & Streak -->
-  <table border="0">
-    <tr>
-      <td>
-        <a href="https://leetcode.com/u/Kausik_05/">
-          <img height="175em" src="https://leetcard.jacoblin.cool/Kausik_05?theme=dark" alt="LeetCode Stats" />
-        </a>
-      </td>
-      <td>
-        <img height="175em" src="https://streak-stats.vercel.app/?user=kausikhussain&theme=dark&background=090d16&border=1e293b&stroke=a78bfa&ring=38bdf8&fire=34d399&currStreakNum=e2e8f0&sideNums=e2e8f0&sideLabels=94a3b8" alt="GitHub Streak" />
-      </td>
-    </tr>
-  </table>
-
-  <br />
-
-  <!-- Activity Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kausikhussain&theme=react-dark&hide_border=true&bg_color=090d16" alt="Activity Graph" width="100%" />
-
+  <a href="https://leetcode.com/u/Kausik_05/">
+    <img src="https://leetcard.jacoblin.cool/Kausik_05?theme=dark&border=0&radius=8" alt="LeetCode Stats" height="170" />
+  </a>
 </div>
 
 <br />
 
 ---
 
-## 🏆 Key Achievements & Recognition
-
-- **🏆 Smart India Hackathon (SIH) Finalist**: Qualified among top nationwide development teams with **JanSehat**, building scalable healthcare AI architecture.
-- **🚀 Flagship Full-Stack Engineering**: Built and published production-grade web platforms including **Drift** and **Victus**.
-- **🎨 3D Web & UI Excellence**: Crafted immersive 60fps web graphics and modern design systems using **Three.js**, **GSAP**, and **Framer Motion**.
-- **🌐 Active Open Source Contributor**: Continuously contributing to scalable web software, developer tools, and machine learning repositories.
-
-<br />
-
----
-
-## 🎯 Current Focus & Development Philosophy
-
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🚀 Currently Mastering</h3>
-      <ul>
-        <li>⚡ <b>Advanced Java Architecture:</b> Distributed systems, concurrency, and high-performance JVM optimization.</li>
-        <li>🧠 <b>AI &amp; Deep Learning:</b> Advanced LLM fine-tuning, RAG architectures, and computer vision pipelines.</li>
-        <li>🏗️ <b>System Design:</b> Event-driven microservices, caching layers, and database scaling.</li>
-        <li>🎨 <b>3D Web Graphics:</b> WebGL shaders, GLSL, and complex Three.js scene graphs.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>💎 Development Philosophy</h3>
-      <ol>
-        <li><b>Build with Purpose</b> — Form follows function; software must solve real problems elegantly.</li>
-        <li><b>Design Before Code</b> — Exceptional UX starts with deliberate UI/UX architecture.</li>
-        <li><b>Performance First</b> — Smooth 60fps rendering and instant response times are mandatory.</li>
-        <li><b>Simplicity Scales</b> — Clean, modular code beats complex over-engineering every time.</li>
-      </ol>
-    </td>
-  </tr>
-</table>
-
-<br />
-
----
-
-## 🎧 Developer Vibe & Beyond The Code
+## Let's Build Something
 
 <div align="center">
 
-  <table width="100%">
-    <tr>
-      <td width="50%" align="center">
-        <h4>🎵 Coding Vibe &amp; Audio Pulse</h4>
-        <p>☕ <b>Single-Origin Espresso</b> &nbsp;•&nbsp; 🎧 <b>Synthwave / Ambient Lo-Fi</b></p>
-        <p><i>"Code in silence, let execution make the noise."</i></p>
-      </td>
-      <td width="50%" align="center">
-        <h4>💡 Developer Mindset</h4>
-        <blockquote>
-          "I don't just write code; I design digital experiences that feel alive."
-        </blockquote>
-      </td>
-    </tr>
-  </table>
-
-</div>
-
-<br />
-
----
-
-## 📬 Connect With Me
-
-<div align="center">
-
-  <a href="https://kausik-portfolio-psi.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/PORTFOLIO-2563EB?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+  <a href="https://github.com/kausikhussain">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   &nbsp;
-  <a href="https://linkedin.com/in/kausikhussain" target="_blank">
-    <img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <a href="https://linkedin.com/in/kausikhussain">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   &nbsp;
-  <a href="https://github.com/kausikhussain" target="_blank">
-    <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <a href="mailto:kausik1027@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   &nbsp;
-  <a href="mailto:kausik1027@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  &nbsp;
-  <a href="https://leetcode.com/u/Kausik_05/" target="_blank">
-    <img src="https://img.shields.io/badge/LEETCODE-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" />
-  </a>
-  &nbsp;
-  <a href="https://www.instagram.com/kausik.05_/" target="_blank">
-    <img src="https://img.shields.io/badge/INSTAGRAM-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  <a href="https://leetcode.com/u/Kausik_05/">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" />
   </a>
 
   <br /><br />
 
-  <!-- Footer Banner -->
-  <img src="./assets/footer-banner.svg" alt="Footer Line" width="100%" />
-
-  <p><i>Crafted with precision &amp; passion by <b>Kausik Hussain</b></i></p>
+  <!-- Footer -->
+  <img src="./assets/footer-banner.svg" alt="Footer" width="100%" />
 
 </div>
