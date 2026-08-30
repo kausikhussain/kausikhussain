@@ -215,13 +215,13 @@ Three.js, WebGL, GSAP, and Framer Motion are core tools — not side experiments
 
 <div align="center">
 
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=kausikhussain&show_icons=true&theme=transparent&title_color=a78bfa&text_color=94a3b8&icon_color=38bdf8&hide_border=true&rank_icon=github" alt="GitHub Stats" />
+  <img height="170" src="https://github-stats-extended.vercel.app/api?username=kausikhussain&show_icons=true&theme=transparent&title_color=a78bfa&text_color=94a3b8&icon_color=38bdf8&hide_border=true&rank_icon=github" alt="GitHub Stats" />
   &nbsp;
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kausikhussain&layout=compact&theme=transparent&title_color=a78bfa&text_color=94a3b8&hide_border=true" alt="Top Languages" />
+  <img height="170" src="https://github-stats-extended.vercel.app/api/top-langs/?username=kausikhussain&layout=compact&theme=transparent&title_color=a78bfa&text_color=94a3b8&hide_border=true" alt="Top Languages" />
 
   <br /><br />
 
-  <img height="170" src="https://streak-stats.demolab.com/?user=kausikhussain&theme=transparent&hide_border=true&ring=38bdf8&fire=a78bfa&currStreakLabel=94a3b8&sideLabels=64748b&currStreakNum=e2e8f0&sideNums=e2e8f0&dates=475569" alt="GitHub Streak" />
+  <img height="170" src="https://streak-stats.vercel.app/?user=kausikhussain&theme=transparent&hide_border=true&ring=38bdf8&fire=a78bfa&currStreakLabel=94a3b8&sideLabels=64748b&currStreakNum=e2e8f0&sideNums=e2e8f0&dates=475569" alt="GitHub Streak" />
 
   <br /><br />
 
