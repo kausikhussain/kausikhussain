@@ -1,0 +1,68 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 44" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient matching Obsidian Slate -->
+    <linearGradient id="head-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c14" />
+      <stop offset="50%" stop-color="#0b101d" />
+      <stop offset="100%" stop-color="#0e1626" />
+    </linearGradient>
+
+    <linearGradient id="cyan-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#00f0ff" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow-text" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="1.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Base Container Box -->
+  <rect width="850" height="44" rx="8" fill="url(#head-bg)" stroke="#1e293b" stroke-width="1.2" />
+
+  <!-- Left Icon Indicator -->
+  <g transform="translate(24, 22)">
+    <circle cx="0" cy="0" r="4" fill="#34d399">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Animated Rotating Text Statements (Total cycle = 12s, 4s per line) -->
+  
+  <!-- Line 1: 0s - 4s -->
+  <g filter="url(#glow-text)">
+    <text x="425" y="27" font-family="'JetBrains Mono', 'Space Grotesk', -apple-system, monospace" font-size="14" font-weight="700" fill="url(#cyan-glow)" text-anchor="middle" letter-spacing="1">
+      Building Intelligent Systems &amp; Immersive 3D Digital Experiences
+      <animate attributeName="opacity" values="0;1;1;1;0;0;0;0;0" keyTimes="0;0.05;0.28;0.33;0.36;0.4;0.7;0.9;1" dur="12s" repeatCount="indefinite" />
+    </text>
+  </g>
+
+  <!-- Line 2: 4s - 8s -->
+  <g filter="url(#glow-text)">
+    <text x="425" y="27" font-family="'JetBrains Mono', 'Space Grotesk', -apple-system, monospace" font-size="13.5" font-weight="700" fill="url(#cyan-glow)" text-anchor="middle" letter-spacing="0.8">
+      AI / ML Pipelines • Hardware-Accelerated 3D WebGL • Scalable Distributed Systems
+      <animate attributeName="opacity" values="0;0;0;0;1;1;1;0;0" keyTimes="0;0.33;0.36;0.38;0.42;0.62;0.67;0.70;1" dur="12s" repeatCount="indefinite" />
+    </text>
+  </g>
+
+  <!-- Line 3: 8s - 12s -->
+  <g filter="url(#glow-text)">
+    <text x="425" y="27" font-family="'JetBrains Mono', 'Space Grotesk', -apple-system, monospace" font-size="13.5" font-weight="700" fill="url(#cyan-glow)" text-anchor="middle" letter-spacing="0.8">
+      Where Neural Intelligence Converges with Spatial &amp; Visual Precision
+      <animate attributeName="opacity" values="0;0;0;0;0;0;0;1;1;0" keyTimes="0;0.65;0.68;0.70;0.72;0.74;0.76;0.80;0.96;1" dur="12s" repeatCount="indefinite" />
+    </text>
+  </g>
+
+  <!-- Blinking Terminal Cursor on Right -->
+  <g transform="translate(820, 22)">
+    <rect x="-3" y="-7" width="6" height="14" rx="1" fill="#38bdf8">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+    </rect>
+  </g>
+</svg>

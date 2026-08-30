@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 415 210" width="100%" height="100%">
+  <defs>
+    <linearGradient id="chart-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c14" />
+      <stop offset="100%" stop-color="#0c111c" />
+    </linearGradient>
+  </defs>
+
+  <rect width="415" height="210" rx="10" fill="url(#chart-bg)" stroke="#1e293b" stroke-width="1.2" />
+
+  <!-- Title -->
+  <text x="35" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#0ea5e9" letter-spacing="0.3">
+    Commits (UTC +5.50)
+  </text>
+
+  <!-- Y-Axis Ticks & Labels -->
+  <!-- Level 8 -->
+  <line x1="45" y1="70" x2="385" y2="70" stroke="#1e293b" stroke-width="1" stroke-dasharray="2,4" />
+  <text x="37" y="74" font-family="'JetBrains Mono', monospace" font-size="10" fill="#64748b" text-anchor="end">8</text>
+
+  <!-- Level 4 -->
+  <line x1="45" y1="117.5" x2="385" y2="117.5" stroke="#1e293b" stroke-width="1" stroke-dasharray="2,4" />
+  <text x="37" y="121.5" font-family="'JetBrains Mono', monospace" font-size="10" fill="#64748b" text-anchor="end">4</text>
+
+  <!-- Level 0 (Base Axis) -->
+  <line x1="45" y1="165" x2="385" y2="165" stroke="#334155" stroke-width="1" />
+  <text x="37" y="168" font-family="'JetBrains Mono', monospace" font-size="10" fill="#64748b" text-anchor="end">0</text>
+
+  <!-- Histogram Bars -->
+  <rect x="46.98" y="93.75" width="10.20" height="71.25" rx="1" fill="#34d399" /><rect x="61.15" y="105.62" width="10.20" height="59.38" rx="1" fill="#34d399" /><rect x="75.32" y="129.38" width="10.20" height="35.62" rx="1" fill="#34d399" /><rect x="89.48" y="141.25" width="10.20" height="23.75" rx="1" fill="#34d399" /><rect x="103.65" y="165.00" width="10.20" height="1.50" rx="1" fill="#34d399" /><rect x="117.82" y="165.00" width="10.20" height="1.50" rx="1" fill="#34d399" /><rect x="131.98" y="165.00" width="10.20" height="1.50" rx="1" fill="#34d399" /><rect x="146.15" y="165.00" width="10.20" height="1.50" rx="1" fill="#34d399" /><rect x="160.32" y="165.00" width="10.20" height="1.50" rx="1" fill="#34d399" /><rect x="174.48" y="153.12" width="10.20" height="11.88" rx="1" fill="#34d399" /><rect x="188.65" y="129.38" width="10.20" height="35.62" rx="1" fill="#34d399" /><rect x="202.82" y="165.00" width="10.20" height="1.50" rx="1" fill="#34d399" /><rect x="216.98" y="141.25" width="10.20" height="23.75" rx="1" fill="#34d399" /><rect x="231.15" y="141.25" width="10.20" height="23.75" rx="1" fill="#34d399" /><rect x="245.32" y="117.50" width="10.20" height="47.50" rx="1" fill="#34d399" /><rect x="259.48" y="153.12" width="10.20" height="11.88" rx="1" fill="#34d399" /><rect x="273.65" y="153.12" width="10.20" height="11.88" rx="1" fill="#34d399" /><rect x="287.82" y="165.00" width="10.20" height="1.50" rx="1" fill="#34d399" /><rect x="301.98" y="165.00" width="10.20" height="1.50" rx="1" fill="#34d399" /><rect x="316.15" y="165.00" width="10.20" height="1.50" rx="1" fill="#34d399" /><rect x="330.32" y="70.00" width="10.20" height="95.00" rx="1" fill="#34d399" /><rect x="344.48" y="129.38" width="10.20" height="35.62" rx="1" fill="#34d399" /><rect x="358.65" y="81.88" width="10.20" height="83.12" rx="1" fill="#34d399" /><rect x="372.82" y="141.25" width="10.20" height="23.75" rx="1" fill="#34d399" />
+
+  <!-- X-Axis Labels: 0, 6, 12, 18, 23 -->
+  <text x="52.083333333333336" y="181" font-family="'JetBrains Mono', monospace" font-size="10" fill="#64748b" text-anchor="middle">0</text>
+  <text x="137.08333333333334" y="181" font-family="'JetBrains Mono', monospace" font-size="10" fill="#64748b" text-anchor="middle">6</text>
+  <text x="222.08333333333334" y="181" font-family="'JetBrains Mono', monospace" font-size="10" fill="#64748b" text-anchor="middle">12</text>
+  <text x="307.0833333333333" y="181" font-family="'JetBrains Mono', monospace" font-size="10" fill="#64748b" text-anchor="middle">18</text>
+  <text x="377.91666666666663" y="181" font-family="'JetBrains Mono', monospace" font-size="10" fill="#64748b" text-anchor="middle">23</text>
+
+  <!-- Bottom Subtitle / X-axis unit -->
+  <text x="385" y="193" font-family="'JetBrains Mono', monospace" font-size="9" fill="#475569" text-anchor="end">per day hour</text>
+</svg>

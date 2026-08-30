@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 415 210" width="100%" height="100%">
+  <defs>
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c14" />
+      <stop offset="100%" stop-color="#0c111c" />
+    </linearGradient>
+  </defs>
+
+  <rect width="415" height="210" rx="10" fill="url(#card-bg)" stroke="#1e293b" stroke-width="1.2" />
+
+  <!-- Card Title -->
+  <text x="35" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#0ea5e9" letter-spacing="0.3">
+    Top Languages by Repo
+  </text>
+
+  <!-- Legend -->
+  
+    <rect x="35" y="65" width="11" height="11" rx="2" fill="#2563eb" />
+    <text x="54" y="75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#e2e8f0">TypeScript</text>
+    
+    <rect x="35" y="87" width="11" height="11" rx="2" fill="#eab308" />
+    <text x="54" y="97" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#e2e8f0">JavaScript</text>
+    
+    <rect x="35" y="109" width="11" height="11" rx="2" fill="#b45309" />
+    <text x="54" y="119" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#e2e8f0">Java</text>
+    
+    <rect x="35" y="131" width="11" height="11" rx="2" fill="#38bdf8" />
+    <text x="54" y="141" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#e2e8f0">Python</text>
+    
+    <rect x="35" y="153" width="11" height="11" rx="2" fill="#ea580c" />
+    <text x="54" y="163" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#e2e8f0">HTML</text>
+    
+    <rect x="35" y="175" width="11" height="11" rx="2" fill="#9333ea" />
+    <text x="54" y="185" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#e2e8f0">Other</text>
+    
+
+  <!-- Donut Chart -->
+  <path d="M 300.00 47.00 A 68 68 0 1 1 265.39 173.53 L 279.64 149.43 A 40 40 0 1 0 300.00 75.00 Z" fill="#2563eb" stroke="#080c14" stroke-width="1.5" /><path d="M 265.39 173.53 A 68 68 0 0 1 233.46 129.00 L 260.86 123.23 A 40 40 0 0 0 279.64 149.43 Z" fill="#eab308" stroke="#080c14" stroke-width="1.5" /><path d="M 233.46 129.00 A 68 68 0 0 1 232.77 104.78 L 260.45 108.99 A 40 40 0 0 0 260.86 123.23 Z" fill="#b45309" stroke="#080c14" stroke-width="1.5" /><path d="M 232.77 104.78 A 68 68 0 0 1 237.09 89.18 L 263.00 99.81 A 40 40 0 0 0 260.45 108.99 Z" fill="#38bdf8" stroke="#080c14" stroke-width="1.5" /><path d="M 237.09 89.18 A 68 68 0 0 1 244.99 75.03 L 267.64 91.49 A 40 40 0 0 0 263.00 99.81 Z" fill="#ea580c" stroke="#080c14" stroke-width="1.5" /><path d="M 244.99 75.03 A 68 68 0 0 1 300.00 47.00 L 300.00 75.00 A 40 40 0 0 0 267.64 91.49 Z" fill="#9333ea" stroke="#080c14" stroke-width="1.5" />
+</svg>

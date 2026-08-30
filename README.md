@@ -1,28 +1,21 @@
-<div align="center">
+﻿<div align="center">
 
-  <!-- Header Banner -->
+  <!-- 01. MAIN HERO BANNER (3D ISOMETRIC POLYHEDRON + NEURAL LATTICE) -->
   <img src="./assets/header-banner.svg" alt="Kausik Hussain — AI/ML · 3D Web · Full-Stack" width="100%" />
 
-  <br /><br />
-
-  <!-- Animated Typing Headline -->
-  <a href="https://github.com/kausikhussain">
-    <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=22&pause=1200&color=38BDF8&center=true&vCenter=true&width=780&lines=Building+Intelligent+Systems+%26+Immersive+3D+Digital+Experiences;AI+%2F+ML+Pipelines+•+High-Performance+Distributed+Systems;Sculpting+60fps+WebGL+Shaders+%26+Interactive+Spatial+Web;Where+Neural+Intelligence+Converges+with+Visual+Precision" alt="Typing SVG" />
-  </a>
-
-  <br /><br />
-
-  <!-- Digital Intelligence Lab Status Bar -->
-  <p>
-    <kbd>LAB : DIGITAL_INTELLIGENCE_HQ</kbd> &nbsp;•&nbsp;
-    <kbd>STATUS : ACTIVE_RESEARCH</kbd> &nbsp;•&nbsp;
-    <kbd>CORE : AI × 3D × SYSTEMS</kbd> &nbsp;•&nbsp;
-    <kbd>MODE : DESIGN × ENGINEER × SHIP</kbd>
-  </p>
+  <!-- 02. CYCLING HEADLINE (SELF-HOSTED REPOSITORY SVG — ZERO BROKEN LINKS) -->
+  <img src="./assets/hero-headline.svg" alt="Engineering Mission &amp; Core Focus" width="100%" />
 
   <br />
 
-  <!-- Direct Hub Navigation -->
+  <!-- 03. SIGNATURE SYSTEM STATUS BAR -->
+  <p>
+    <kbd style="background-color: #080c14; color: #38bdf8; border: 1px solid #1e293b; padding: 4px 10px; font-family: monospace; font-size: 12px; font-weight: 600;">LAB : DIGITAL_INTELLIGENCE_HQ</kbd> &nbsp;•&nbsp;
+    <kbd style="background-color: #080c14; color: #c084fc; border: 1px solid #1e293b; padding: 4px 10px; font-family: monospace; font-size: 12px; font-weight: 600;">FOCUS : AI × 3D × SYSTEMS</kbd> &nbsp;•&nbsp;
+    <kbd style="background-color: #080c14; color: #34d399; border: 1px solid #1e293b; padding: 4px 10px; font-family: monospace; font-size: 12px; font-weight: 600;">MODE : DESIGN × ENGINEER × SHIP</kbd>
+  </p>
+
+  <!-- 04. DIRECT ACTION NAVIGATION -->
   <a href="https://kausik-portfolio-psi.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/PORTFOLIO-2563EB?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
@@ -38,10 +31,6 @@
   <a href="mailto:kausik1027@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  &nbsp;
-  <a href="https://github.com/kausikhussain">
-    <img src="https://komarev.com/ghpvc/?username=kausikhussain&label=PROFILE%20VIEWS&color=7c3aed&style=for-the-badge" alt="Profile Views" />
-  </a>
 
 </div>
 
@@ -53,27 +42,27 @@
 
 <table width="100%" border="0">
   <tr>
-    <td bgcolor="#090d16" style="padding: 24px; border-radius: 12px; border: 1px solid #1e293b;">
-      <p style="font-size: 15px; line-height: 1.7; color: #e2e8f0; margin-bottom: 20px;">
-        I am a <b>Full-Stack Developer, AI/ML Engineer, and 3D Web Creative Technologist</b> dedicated to building luxury-grade, high-performance digital products. My work operates at the exact intersection of <b>machine learning models, scalable backend architectures, and hardware-accelerated 3D WebGL experiences</b>.
+    <td bgcolor="#090d16" style="padding: 22px; border-radius: 12px; border: 1px solid #1e293b;">
+      <p style="font-size: 14.5px; line-height: 1.7; color: #e2e8f0; margin-bottom: 16px;">
+        I am a <b>Full-Stack Developer, AI/ML Engineer, and 3D Web Creative Technologist</b> dedicated to building luxury-grade, high-performance digital products. My work operates at the exact convergence of <b>machine learning models, scalable backend microservices, and hardware-accelerated 3D WebGL experiences</b>.
       </p>
       <table width="100%" border="0">
         <tr>
-          <td width="50%" valign="top" style="padding: 10px 14px;">
+          <td width="50%" valign="top" style="padding: 8px 12px;">
             <p><b style="color: #38bdf8;">🧠 AI &amp; INTELLIGENT SYSTEMS</b><br />
             <span style="color: #94a3b8; font-size: 13px;">Designing predictive pipelines, automated computer vision telemetry, and LLM agent architectures.</span></p>
           </td>
-          <td width="50%" valign="top" style="padding: 10px 14px;">
+          <td width="50%" valign="top" style="padding: 8px 12px;">
             <p><b style="color: #c084fc;">✨ 3D WEB &amp; SPATIAL GRAPHICS</b><br />
             <span style="color: #94a3b8; font-size: 13px;">Sculpting 60fps browser experiences using Three.js, WebGL shaders, GSAP, and Lenis physics.</span></p>
           </td>
         </tr>
         <tr>
-          <td width="50%" valign="top" style="padding: 10px 14px;">
+          <td width="50%" valign="top" style="padding: 8px 12px;">
             <p><b style="color: #38bdf8;">⚡ SCALABLE FULL-STACK ARCHITECTURE</b><br />
             <span style="color: #94a3b8; font-size: 13px;">Engineering high-concurrency services with Next.js, Node.js, Spring Boot, and distributed storage.</span></p>
           </td>
-          <td width="50%" valign="top" style="padding: 10px 14px;">
+          <td width="50%" valign="top" style="padding: 8px 12px;">
             <p><b style="color: #34d399;">💎 INTERACTION CRAFTSMANSHIP</b><br />
             <span style="color: #94a3b8; font-size: 13px;">Crafting minimal, typography-driven, and visually striking interfaces inspired by top-tier product design.</span></p>
           </td>
@@ -151,7 +140,7 @@
 
 <table width="100%" border="0">
   <tr>
-    <td width="50%" valign="top" bgcolor="#090d16" style="padding: 22px; border: 1px solid #1e293b; border-radius: 10px;">
+    <td width="50%" valign="top" bgcolor="#090d16" style="padding: 20px; border: 1px solid #1e293b; border-radius: 10px;">
       <h3 style="color: #38bdf8; margin: 0 0 10px 0;">🧠 MACHINE LEARNING &amp; PREDICTIVE ENGINES</h3>
       <p style="color: #94a3b8; font-size: 13px; line-height: 1.6;">
         Engineering applied machine learning architectures that translate multidimensional feature spaces into actionable, low-latency decisions.
@@ -162,7 +151,7 @@
         <li><b>High-Throughput ML Pipelines:</b> Automated model training, inference, and data telemetry in <b>Victus</b>.</li>
       </ul>
     </td>
-    <td width="50%" valign="top" bgcolor="#090d16" style="padding: 22px; border: 1px solid #1e293b; border-radius: 10px;">
+    <td width="50%" valign="top" bgcolor="#090d16" style="padding: 20px; border: 1px solid #1e293b; border-radius: 10px;">
       <h3 style="color: #38bdf8; margin: 0 0 10px 0;">👁️ COMPUTER VISION &amp; LLM INTEGRATION</h3>
       <p style="color: #94a3b8; font-size: 13px; line-height: 1.6;">
         Bridging sensory inputs and contextual intelligence to build responsive, AI-augmented human interfaces.
@@ -196,7 +185,7 @@
 
 <table width="100%" border="0">
   <tr>
-    <td width="50%" valign="top" bgcolor="#090d16" style="padding: 22px; border: 1px solid #1e293b; border-radius: 10px;">
+    <td width="50%" valign="top" bgcolor="#090d16" style="padding: 20px; border: 1px solid #1e293b; border-radius: 10px;">
       <h3 style="color: #c084fc; margin: 0 0 10px 0;">🌐 WEBGL &amp; THREE.JS ARCHITECTURE</h3>
       <p style="color: #94a3b8; font-size: 13px; line-height: 1.6;">
         Transforming flat web pages into tactile, spatial experiences utilizing GPU hardware acceleration.
@@ -207,7 +196,7 @@
         <li><b>GPU Draw-Call Optimization:</b> Mesh instancing, texture mipmapping, and lazy-loaded assets for zero jank.</li>
       </ul>
     </td>
-    <td width="50%" valign="top" bgcolor="#090d16" style="padding: 22px; border: 1px solid #1e293b; border-radius: 10px;">
+    <td width="50%" valign="top" bgcolor="#090d16" style="padding: 20px; border: 1px solid #1e293b; border-radius: 10px;">
       <h3 style="color: #c084fc; margin: 0 0 10px 0;">🎬 MOTION DESIGN &amp; SCROLL PHYSICS</h3>
       <p style="color: #94a3b8; font-size: 13px; line-height: 1.6;">
         Creating seamless, synchronized interactions where user scroll gestures drive cinematic spatial camera paths.
@@ -227,31 +216,18 @@
 
 ## 05 / AI × 3D · THE SIGNATURE CONVERGENCE
 
-```
-========================================================================================================
-                          WHERE NEURAL INTELLIGENCE MEETS SPATIAL GEOMETRY
-========================================================================================================
+<div align="center">
+  <img src="./assets/ai-3d-convergence.svg" alt="AI x 3D Architectural Convergence" width="100%" />
+</div>
 
-       ┌────────────────────────┐                    ┌────────────────────────┐
-       │   AI & NEURAL LOGIC    │                    │  3D SPATIAL GEOMETRY   │
-       │  Predictions · Vision  │                    │  WebGL · Shaders · 60fps│
-       └────────────────────────┘                    └────────────────────────┘
-                   │                                              │
-                   └──────────────────────┬───────────────────────┘
-                                          │
-                                          ▼
-                      ┌────────────────────────────────────────┐
-                      │    IMMERSIVE DIGITAL INTELLIGENCE      │
-                      │  Software that is both smart & tactile │
-                      └────────────────────────────────────────┘
-```
+<br />
 
 <table width="100%" border="0">
   <tr>
-    <td bgcolor="#090d16" style="padding: 20px; border-radius: 10px; border: 1px solid #38bdf8;">
+    <td bgcolor="#090d16" style="padding: 18px; border-radius: 10px; border: 1px solid #38bdf8;">
       <p style="color: #e2e8f0; font-size: 14px; line-height: 1.7; margin: 0;">
         Most developers specialize in <i>either</i> backend machine learning <i>or</i> creative frontend graphics. 
-        <b>My core differentiator is unifying both</b>: building complex neural pipelines on the backend while rendering their outputs through bespoke, GPU-accelerated 3D WebGL spatial interfaces that feel effortless to use.
+        <b>My core differentiator is unifying both</b>: building complex neural pipelines on the backend while rendering their outputs through bespoke, GPU-accelerated 3D WebGL spatial interfaces that feel effortless, tactile, and responsive.
       </p>
     </td>
   </tr>
@@ -266,7 +242,7 @@
 <!-- HERO PROJECT 1: VERON -->
 <table width="100%" border="0">
   <tr>
-    <td bgcolor="#090d16" style="padding: 24px; border-radius: 12px; border: 1px solid #38bdf8;">
+    <td bgcolor="#090d16" style="padding: 22px; border-radius: 12px; border: 1px solid #38bdf8;">
       <span style="color: #38bdf8; font-family: monospace; font-size: 11px; letter-spacing: 1.5px; font-weight: 700;">★ FEATURED BUILD 01 // 3D WEBGL &amp; LUXURY COMMERCE</span>
       <h2 style="color: #ffffff; margin: 8px 0 12px 0;">🛍️ VERON — Luxury Fashion &amp; 3D Web Experience</h2>
       <p style="color: #cbd5e1; font-size: 14px; line-height: 1.6;">
@@ -291,7 +267,7 @@
 <!-- HERO PROJECT 2: JANSEHAT -->
 <table width="100%" border="0">
   <tr>
-    <td bgcolor="#090d16" style="padding: 24px; border-radius: 12px; border: 1px solid #c084fc;">
+    <td bgcolor="#090d16" style="padding: 22px; border-radius: 12px; border: 1px solid #c084fc;">
       <span style="color: #c084fc; font-family: monospace; font-size: 11px; letter-spacing: 1.5px; font-weight: 700;">★ FEATURED BUILD 02 // AI HEALTHCARE ARCHITECTURE · NATIONAL SIH FINALIST</span>
       <h2 style="color: #ffffff; margin: 8px 0 12px 0;">🏥 JanSehat — AI Clinical Triage &amp; Queue Management</h2>
       <p style="color: #cbd5e1; font-size: 14px; line-height: 1.6;">
@@ -317,7 +293,7 @@
 <table width="100%" border="0">
   <tr>
     <!-- DriftX -->
-    <td width="50%" valign="top" bgcolor="#090d16" style="padding: 20px; border: 1px solid #1e293b; border-radius: 8px;">
+    <td width="50%" valign="top" bgcolor="#090d16" style="padding: 18px; border: 1px solid #1e293b; border-radius: 8px;">
       <span style="color: #94a3b8; font-family: monospace; font-size: 11px; font-weight: 600;">03 // CREATIVE FRONTEND</span>
       <h3 style="color: #ffffff; margin: 6px 0 8px 0;">⚡ DriftX — Streetwear Landing Platform</h3>
       <p style="color: #cbd5e1; font-size: 13px;">Monochrome luxury streetwear platform featuring Lenis scroll physics, video-first hero sequences, and GSAP micro-interactions.</p>
@@ -328,7 +304,7 @@
       </p>
     </td>
     <!-- VeriomeX -->
-    <td width="50%" valign="top" bgcolor="#090d16" style="padding: 20px; border: 1px solid #1e293b; border-radius: 8px;">
+    <td width="50%" valign="top" bgcolor="#090d16" style="padding: 18px; border: 1px solid #1e293b; border-radius: 8px;">
       <span style="color: #94a3b8; font-family: monospace; font-size: 11px; font-weight: 600;">04 // GENOMICS &amp; DECENTRALIZED DATA</span>
       <h3 style="color: #ffffff; margin: 6px 0 8px 0;">🧬 VeriomeX — Genomic Data Sovereignty</h3>
       <p style="color: #cbd5e1; font-size: 13px;">Privacy-preserving genomic data ecosystem combining IPFS decentralized storage, zero-knowledge proofs, and cryptographic access control.</p>
@@ -340,7 +316,7 @@
   </tr>
   <tr>
     <!-- TechNova-S3 -->
-    <td width="50%" valign="top" bgcolor="#090d16" style="padding: 20px; border: 1px solid #1e293b; border-radius: 8px;">
+    <td width="50%" valign="top" bgcolor="#090d16" style="padding: 18px; border: 1px solid #1e293b; border-radius: 8px;">
       <span style="color: #94a3b8; font-family: monospace; font-size: 11px; font-weight: 600;">05 // AI CROWD SAFETY</span>
       <h3 style="color: #ffffff; margin: 6px 0 8px 0;">🛡️ TechNova-S3 — AI Crowd Safety System</h3>
       <p style="color: #cbd5e1; font-size: 13px;">AI-driven predictive crowd density analytics and real-time public safety alert system for smart city event management.</p>
@@ -349,14 +325,14 @@
         <a href="https://github.com/kausikhussain/TechNova-S3"><b>📁 Repository</b></a>
       </p>
     </td>
-    <!-- Victus -->
-    <td width="50%" valign="top" bgcolor="#090d16" style="padding: 20px; border: 1px solid #1e293b; border-radius: 8px;">
-      <span style="color: #94a3b8; font-family: monospace; font-size: 11px; font-weight: 600;">06 // MACHINE LEARNING SYSTEMS</span>
-      <h3 style="color: #ffffff; margin: 6px 0 8px 0;">🧠 Victus — Intelligent Analytics Engine</h3>
-      <p style="color: #cbd5e1; font-size: 13px;">High-throughput full-stack system designed for automated data pipeline processing, ML inference, and interactive analytics.</p>
-      <p><code>Python</code> • <code>PyTorch</code> • <code>React</code> • <code>Tailwind CSS</code></p>
+    <!-- FreshKart -->
+    <td width="50%" valign="top" bgcolor="#090d16" style="padding: 18px; border: 1px solid #1e293b; border-radius: 8px;">
+      <span style="color: #94a3b8; font-family: monospace; font-size: 11px; font-weight: 600;">06 // QUICK-COMMERCE ENGINE</span>
+      <h3 style="color: #ffffff; margin: 6px 0 8px 0;">🛒 FreshKart — Hyperlocal Delivery Platform</h3>
+      <p style="color: #cbd5e1; font-size: 13px;">Production-ready grocery delivery platform engineered for ultra-fast local fulfillment, dynamic cart state, and order tracking.</p>
+      <p><code>Next.js</code> • <code>TypeScript</code> • <code>Tailwind</code> • <code>Node.js</code></p>
       <p>
-        <a href="https://github.com/kausikhussain/Victus"><b>📁 Repository</b></a>
+        <a href="https://github.com/kausikhussain/FreshKart"><b>📁 Repository</b></a>
       </p>
     </td>
   </tr>
@@ -366,7 +342,13 @@
 
 ---
 
-## 07 / ENGINEERING STACK
+## 07 / ENGINEERING STACK &amp; CAPABILITY MAP
+
+<div align="center">
+  <img src="./assets/capability-map.svg" alt="End-to-End Engineering Capability Map" width="100%" />
+</div>
+
+<br />
 
 <div align="center">
 
@@ -462,30 +444,50 @@
 
 ---
 
-## 10 / ACTIVITY &amp; TELEMETRY
+## 10 / ENGINEERING ACTIVITY &amp; TELEMETRY
 
 <div align="center">
 
-  <!-- TOP ROW: STREAK CARD -->
-  <img height="185em" src="https://streak-stats.vercel.app/?user=kausikhussain&theme=dark&background=090d16&border=1e293b&stroke=a78bfa&ring=38bdf8&fire=34d399&currStreakNum=e2e8f0&sideNums=e2e8f0&sideLabels=94a3b8" alt="GitHub Streak" />
+  <p>
+    <kbd style="background-color: #080c14; color: #38bdf8; border: 1px solid #1e293b; padding: 4px 12px; font-family: monospace; font-size: 13px; font-weight: 600;">~$ ./telemetry --target kausikhussain</kbd>
+  </p>
+
+  <br />
+
+  <!-- ROW 1: TOTAL CONTRIBUTIONS, CURRENT STREAK, LONGEST STREAK -->
+  <img src="./assets/analytics/streak-summary.svg" alt="GitHub Streaks &amp; Total Contributions" width="100%" />
 
   <br /><br />
 
-  <!-- MIDDLE ROW: 2-CARD GRID (TOP LANGUAGES & REPO STATS) -->
-  <table border="0">
+  <!-- ROW 2: TOP LANGUAGES (BY REPO & BY COMMIT) -->
+  <table width="100%" border="0" cellpadding="0" cellspacing="8">
     <tr>
-      <td>
-        <img height="185em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=kausikhussain&layout=compact&theme=dark&title_color=38bdf8&text_color=e2e8f0&bg_color=090d16&border_color=1e293b&hide_border=false" alt="Top Languages" />
+      <td width="50%" valign="top">
+        <img src="./assets/analytics/top-langs-repo.svg" alt="Top Languages by Repo" width="100%" />
       </td>
-      <td>
-        <img height="185em" src="https://github-stats-extended.vercel.app/api?username=kausikhussain&show_icons=true&theme=dark&title_color=38bdf8&text_color=e2e8f0&icon_color=a78bfa&bg_color=090d16&border_color=1e293b&hide_border=false" alt="GitHub Stats" />
+      <td width="50%" valign="top">
+        <img src="./assets/analytics/top-langs-commit.svg" alt="Top Languages by Commit" width="100%" />
       </td>
     </tr>
   </table>
 
   <br />
 
-  <!-- BOTTOM ROW: BESPOKE 3D ISOMETRIC CONTRIBUTION SNAKE -->
+  <!-- ROW 3: STATS & COMMITS BY HOUR (UTC +5:30) -->
+  <table width="100%" border="0" cellpadding="0" cellspacing="8">
+    <tr>
+      <td width="50%" valign="top">
+        <img src="./assets/analytics/github-stats.svg" alt="GitHub Stats" width="100%" />
+      </td>
+      <td width="50%" valign="top">
+        <img src="./assets/analytics/commits-hourly.svg" alt="Commits (UTC +5:30)" width="100%" />
+      </td>
+    </tr>
+  </table>
+
+  <br /><br />
+
+  <!-- 3D ISOMETRIC CONTRIBUTION GRID SNAKE -->
   <img src="./assets/github-contribution-grid-snake-3d.svg" alt="3D Isometric Contribution Grid Snake" width="100%" />
 
   <br /><br />

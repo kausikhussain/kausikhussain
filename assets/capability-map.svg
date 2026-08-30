@@ -1,0 +1,68 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 150" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cap-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07090e" />
+      <stop offset="50%" stop-color="#0a0e1a" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="line-flow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="35%" stop-color="#818cf8" />
+      <stop offset="70%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+  </defs>
+
+  <rect width="850" height="150" rx="14" fill="url(#cap-bg)" stroke="#1e293b" stroke-width="1.2" />
+
+  <!-- Flow Line Across All Nodes -->
+  <line x1="75" y1="75" x2="775" y2="75" stroke="url(#line-flow)" stroke-width="2" stroke-dasharray="4,4" />
+
+  <!-- Node 1: AI & Data -->
+  <g transform="translate(45, 38)">
+    <rect width="105" height="74" rx="8" fill="#090d16" stroke="#38bdf8" stroke-width="1.2" />
+    <text x="52" y="24" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700" fill="#38bdf8" text-anchor="middle">01 // DATA</text>
+    <text x="52" y="44" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#e2e8f0" text-anchor="middle">Datasets &amp; RAG</text>
+    <text x="52" y="59" font-family="'JetBrains Mono', monospace" font-size="9" fill="#94a3b8" text-anchor="middle">OpenCV / Pandas</text>
+  </g>
+
+  <!-- Node 2: Neural Models -->
+  <g transform="translate(185, 38)">
+    <rect width="105" height="74" rx="8" fill="#090d16" stroke="#38bdf8" stroke-width="1.2" />
+    <text x="52" y="24" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700" fill="#38bdf8" text-anchor="middle">02 // MODELS</text>
+    <text x="52" y="44" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#e2e8f0" text-anchor="middle">Inference Logic</text>
+    <text x="52" y="59" font-family="'JetBrains Mono', monospace" font-size="9" fill="#94a3b8" text-anchor="middle">PyTorch / LLMs</text>
+  </g>
+
+  <!-- Node 3: Backend & APIs -->
+  <g transform="translate(325, 38)">
+    <rect width="105" height="74" rx="8" fill="#090d16" stroke="#818cf8" stroke-width="1.2" />
+    <text x="52" y="24" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700" fill="#818cf8" text-anchor="middle">03 // BACKEND</text>
+    <text x="52" y="44" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#e2e8f0" text-anchor="middle">REST &amp; Sockets</text>
+    <text x="52" y="59" font-family="'JetBrains Mono', monospace" font-size="9" fill="#94a3b8" text-anchor="middle">Node / Spring</text>
+  </g>
+
+  <!-- Node 4: Frontend Client -->
+  <g transform="translate(465, 38)">
+    <rect width="105" height="74" rx="8" fill="#090d16" stroke="#c084fc" stroke-width="1.2" />
+    <text x="52" y="24" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700" fill="#c084fc" text-anchor="middle">04 // FRONTEND</text>
+    <text x="52" y="44" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#e2e8f0" text-anchor="middle">React &amp; Next.js</text>
+    <text x="52" y="59" font-family="'JetBrains Mono', monospace" font-size="9" fill="#94a3b8" text-anchor="middle">TypeScript / Tailwind</text>
+  </g>
+
+  <!-- Node 5: 3D WebGL Engine -->
+  <g transform="translate(605, 38)">
+    <rect width="105" height="74" rx="8" fill="#090d16" stroke="#c084fc" stroke-width="1.2" />
+    <text x="52" y="24" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700" fill="#c084fc" text-anchor="middle">05 // 3D WEBGL</text>
+    <text x="52" y="44" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#e2e8f0" text-anchor="middle">Three.js / Shaders</text>
+    <text x="52" y="59" font-family="'JetBrains Mono', monospace" font-size="9" fill="#94a3b8" text-anchor="middle">GSAP &amp; Lenis 60fps</text>
+  </g>
+
+  <!-- Node 6: UX Experience -->
+  <g transform="translate(745, 38)">
+    <rect width="70" height="74" rx="8" fill="#090d16" stroke="#34d399" stroke-width="1.2" />
+    <text x="35" y="24" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" fill="#34d399" text-anchor="middle">06 // UX</text>
+    <text x="35" y="44" font-family="system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#34d399" text-anchor="middle">Intelligent</text>
+    <text x="35" y="59" font-family="system-ui, sans-serif" font-size="10.5" font-weight="700" fill="#34d399" text-anchor="middle">Product</text>
+  </g>
+</svg>
