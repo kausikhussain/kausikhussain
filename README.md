@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
   <!-- 01. MAIN HERO BANNER (3D ISOMETRIC POLYHEDRON + NEURAL LATTICE) -->
   <img src="./assets/header-banner.svg" alt="Kausik Hussain — AI/ML · 3D Web · Full-Stack" width="100%" />
@@ -40,34 +40,31 @@
 
 ## 01 / ABOUT · THE DIGITAL LAB
 
+<div align="center">
+  <p style="font-family: monospace; font-size: 12.5px; color: #38bdf8; letter-spacing: 2px; font-weight: 700; margin: 0 0 6px 0;">
+    // 01 : PERSONAL DIGITAL LABORATORY
+  </p>
+  <h2 style="color: #ffffff; letter-spacing: 1.2px; font-size: 22px; margin: 0 0 10px 0;">
+    BUILDING AT THE INTERSECTION OF INTELLIGENCE, SYSTEMS &amp; INTERACTION.
+  </h2>
+  <p style="color: #94a3b8; font-size: 14.5px; max-width: 720px; line-height: 1.6; margin: 0 auto 16px auto;">
+    I engineer software where <b>machine learning models</b>, <b>scalable backend microservices</b>, and <b>hardware-accelerated 3D WebGL scenes</b> converge into seamless, tactile digital products.
+  </p>
+</div>
+
+<!-- SIGNATURE LAB ARCHITECTURAL NEXUS (100% RESPONSIVE REPO SVG) -->
+<div align="center">
+  <img src="./assets/about-digital-lab.svg" alt="The Digital Lab — Architecture &amp; Disciplines" width="100%" />
+</div>
+
+<br />
+
 <table width="100%" border="0">
   <tr>
-    <td bgcolor="#090d16" style="padding: 22px; border-radius: 12px; border: 1px solid #1e293b;">
-      <p style="font-size: 14.5px; line-height: 1.7; color: #e2e8f0; margin-bottom: 16px;">
-        I am a <b>Full-Stack Developer, AI/ML Engineer, and 3D Web Creative Technologist</b> dedicated to building luxury-grade, high-performance digital products. My work operates at the exact convergence of <b>machine learning models, scalable backend microservices, and hardware-accelerated 3D WebGL experiences</b>.
+    <td bgcolor="#090d16" style="padding: 16px 20px; border-radius: 10px; border: 1px solid #1e293b;">
+      <p style="color: #cbd5e1; font-size: 13.5px; line-height: 1.6; margin: 0;">
+        💡 <b>WHAT THIS MEANS :</b> <i>I don't just build software. I build systems people can see, interact with, and experience — translating mathematical intelligence and GPU rendering into effortless user interfaces.</i>
       </p>
-      <table width="100%" border="0">
-        <tr>
-          <td width="50%" valign="top" style="padding: 8px 12px;">
-            <p><b style="color: #38bdf8;">🧠 AI &amp; INTELLIGENT SYSTEMS</b><br />
-            <span style="color: #94a3b8; font-size: 13px;">Designing predictive pipelines, automated computer vision telemetry, and LLM agent architectures.</span></p>
-          </td>
-          <td width="50%" valign="top" style="padding: 8px 12px;">
-            <p><b style="color: #c084fc;">✨ 3D WEB &amp; SPATIAL GRAPHICS</b><br />
-            <span style="color: #94a3b8; font-size: 13px;">Sculpting 60fps browser experiences using Three.js, WebGL shaders, GSAP, and Lenis physics.</span></p>
-          </td>
-        </tr>
-        <tr>
-          <td width="50%" valign="top" style="padding: 8px 12px;">
-            <p><b style="color: #38bdf8;">⚡ SCALABLE FULL-STACK ARCHITECTURE</b><br />
-            <span style="color: #94a3b8; font-size: 13px;">Engineering high-concurrency services with Next.js, Node.js, Spring Boot, and distributed storage.</span></p>
-          </td>
-          <td width="50%" valign="top" style="padding: 8px 12px;">
-            <p><b style="color: #34d399;">💎 INTERACTION CRAFTSMANSHIP</b><br />
-            <span style="color: #94a3b8; font-size: 13px;">Crafting minimal, typography-driven, and visually striking interfaces inspired by top-tier product design.</span></p>
-          </td>
-        </tr>
-      </table>
     </td>
   </tr>
 </table>
