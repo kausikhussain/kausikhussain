@@ -1,0 +1,247 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient (Titanium Soft White / Warm Neutral) -->
+    <linearGradient id="bg-light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#edf2f7" />
+    </linearGradient>
+
+    <!-- Volumetric Ambient Lighting for Light Mode -->
+    <radialGradient id="glow-light-cyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.12" />
+      <stop offset="60%" stop-color="#0284c7" stop-opacity="0.04" />
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glow-light-violet" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.14" />
+      <stop offset="65%" stop-color="#6d28d9" stop-opacity="0.04" />
+      <stop offset="100%" stop-color="#6d28d9" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Typography Deep Charcoal to Cobalt Gradient -->
+    <linearGradient id="title-grad-light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e293b" />
+      <stop offset="85%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#7c3aed" />
+    </linearGradient>
+
+    <!-- 3D Polyhedron Gradients for Light Mode -->
+    <linearGradient id="poly-face-1-light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.04" />
+    </linearGradient>
+
+    <linearGradient id="poly-face-2-light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0.04" />
+    </linearGradient>
+
+    <linearGradient id="poly-face-3-light" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#059669" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0.03" />
+    </linearGradient>
+
+    <linearGradient id="line-flow-grad-light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0" />
+      <stop offset="25%" stop-color="#0284c7" stop-opacity="0.7" />
+      <stop offset="75%" stop-color="#7c3aed" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Grid Pattern for Light Mode -->
+    <pattern id="arch-grid-light" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#94a3b8" stroke-width="0.8" stroke-opacity="0.18" />
+      <circle cx="0" cy="0" r="0.9" fill="#64748b" fill-opacity="0.3" />
+    </pattern>
+
+    <!-- Filter for Light Mode -->
+    <filter id="core-glow-light" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Base Plate & Grid Layer -->
+  <rect width="960" height="360" rx="16" fill="url(#bg-light)" />
+  <rect width="960" height="360" rx="16" fill="url(#arch-grid-light)" />
+
+  <!-- Outer Precision Border -->
+  <rect x="1" y="1" width="958" height="358" rx="15" fill="none" stroke="#cbd5e1" stroke-width="1.2" stroke-opacity="0.8" />
+  <rect x="5" y="5" width="950" height="350" rx="13" fill="none" stroke="#e2e8f0" stroke-width="0.8" stroke-dasharray="8,6" />
+
+  <!-- Corner Precision Crosshairs -->
+  <g stroke="#0284c7" stroke-width="1" stroke-opacity="0.5">
+    <path d="M 18 14 L 18 22 M 14 18 L 22 18" />
+    <path d="M 942 14 L 942 22 M 938 18 L 946 18" />
+    <path d="M 18 338 L 18 346 M 14 342 L 22 342" />
+    <path d="M 942 338 L 942 346 M 938 342 L 946 342" />
+  </g>
+
+  <!-- TOP STATUS / TELEMETRY BAR -->
+  <g transform="translate(48, 30)">
+    <!-- Active Research Status Pill -->
+    <rect width="270" height="26" rx="13" fill="#ffffff" fill-opacity="0.9" stroke="#cbd5e1" stroke-width="1" />
+    <circle cx="15" cy="13" r="4" fill="#059669">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="28" y="17" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="600" fill="#065f46" letter-spacing="1">
+      SYS_ID: KH-CORE-01 // ACTIVE_LAB
+    </text>
+
+    <!-- Top Right Telemetry -->
+    <text x="864" y="17" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#64748b" letter-spacing="1" text-anchor="end">
+      AI &#215; 3D &#215; SYSTEMS | LATENCY: <tspan fill="#059669">&lt;16ms</tspan>
+    </text>
+  </g>
+
+  <!-- LEFT / CENTER: BRAND MARK TYPOGRAPHY &amp; IDENTITY -->
+  <g transform="translate(54, 90)">
+    <!-- Architectural Subtitle Eyebrow -->
+    <text x="0" y="14" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#0284c7" letter-spacing="2">
+      // DIGITAL INTELLIGENCE &amp; SPATIAL STUDIO
+    </text>
+
+    <!-- Main Architectural Brand Mark (KAUSIK HUSSAIN) -->
+    <text x="0" y="68" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif" font-size="52" font-weight="900" fill="url(#title-grad-light)" letter-spacing="2">
+      KAUSIK HUSSAIN
+    </text>
+
+    <!-- Discipline Pill Row -->
+    <g transform="translate(0, 88)">
+      <!-- AI/ML Pill -->
+      <rect x="0" y="0" width="76" height="22" rx="5" fill="#0284c7" fill-opacity="0.1" stroke="#0284c7" stroke-width="0.9" />
+      <text x="38" y="15" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#0369a1" text-anchor="middle">AI / ML</text>
+
+      <!-- 3D WebGL Pill -->
+      <rect x="84" y="0" width="88" height="22" rx="5" fill="#7c3aed" fill-opacity="0.1" stroke="#7c3aed" stroke-width="0.9" />
+      <text x="128" y="15" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#6d28d9" text-anchor="middle">3D WEBGL</text>
+
+      <!-- Full-Stack Pill -->
+      <rect x="180" y="0" width="98" height="22" rx="5" fill="#059669" fill-opacity="0.1" stroke="#059669" stroke-width="0.9" />
+      <text x="229" y="15" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#047857" text-anchor="middle">FULL-STACK</text>
+
+      <!-- Creative Tech Pill -->
+      <rect x="286" y="0" width="116" height="22" rx="5" fill="#e11d48" fill-opacity="0.08" stroke="#e11d48" stroke-width="0.9" />
+      <text x="344" y="15" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#be123c" text-anchor="middle">CREATIVE TECH</text>
+    </g>
+
+    <!-- Mission Statement -->
+    <text x="0" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="500" fill="#334155" letter-spacing="0.3">
+      Building <tspan fill="#0284c7" font-weight="700">Intelligent Systems</tspan> and <tspan fill="#7c3aed" font-weight="700">Immersive Digital Experiences</tspan>.
+    </text>
+
+    <!-- Architectural Pipeline Synthesis Flow -->
+    <g transform="translate(0, 172)">
+      <rect width="436" height="24" rx="6" fill="#ffffff" fill-opacity="0.9" stroke="#cbd5e1" stroke-width="0.9" />
+      <text x="14" y="16" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#64748b">
+        <tspan fill="#0284c7">DATA</tspan>
+        <tspan fill="#94a3b8"> &#8594; </tspan>
+        <tspan fill="#7c3aed">INTELLIGENCE</tspan>
+        <tspan fill="#94a3b8"> &#8594; </tspan>
+        <tspan fill="#2563eb">GEOMETRY</tspan>
+        <tspan fill="#94a3b8"> &#8594; </tspan>
+        <tspan fill="#059669">EXPERIENCE</tspan>
+      </text>
+    </g>
+  </g>
+
+  <!-- RIGHT / CENTER: FLOATING 3D GEOMETRIC INTELLIGENCE CORE (AI &#215; 3D) -->
+  <g transform="translate(735, 185)">
+    <!-- Volumetric Ambient Halos -->
+    <circle cx="0" cy="0" r="135" fill="url(#glow-light-cyan)" />
+    <circle cx="0" cy="0" r="110" fill="url(#glow-light-violet)" />
+
+    <!-- Orbital Coordinate Rings (Slow Cinematic Rotation) -->
+    <g>
+      <!-- Outer Orbit Ring -->
+      <ellipse cx="0" cy="0" rx="138" ry="46" fill="none" stroke="#0284c7" stroke-width="0.8" stroke-opacity="0.3" stroke-dasharray="4,6">
+        <animateTransform attributeName="transform" type="rotate" from="25" to="385" dur="36s" repeatCount="indefinite" />
+      </ellipse>
+      <!-- Inner Orbit Ring -->
+      <ellipse cx="0" cy="0" rx="115" ry="115" fill="none" stroke="#7c3aed" stroke-width="0.6" stroke-opacity="0.25" stroke-dasharray="8,8">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="48s" repeatCount="indefinite" />
+      </ellipse>
+    </g>
+
+    <!-- 3D POLYHEDRAL INTELLIGENCE CONSTRUCT (Slowly Rotating) -->
+    <g>
+      <!-- Slow subtle geometric oscillation -->
+      <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="8s" repeatCount="indefinite" />
+
+      <!-- Facet 1 (Top-Left) -->
+      <polygon points="0,-75 -65,-36 0,0" fill="url(#poly-face-1-light)" stroke="#2563eb" stroke-width="1.4" />
+      <!-- Facet 2 (Top-Right) -->
+      <polygon points="0,-75 65,-36 0,0" fill="url(#poly-face-2-light)" stroke="#7c3aed" stroke-width="1.4" />
+      <!-- Facet 3 (Bottom-Left) -->
+      <polygon points="-65,-36 0,75 0,0" fill="url(#poly-face-3-light)" stroke="#7c3aed" stroke-width="1.4" />
+      <!-- Facet 4 (Bottom-Right) -->
+      <polygon points="65,-36 0,75 0,0" fill="url(#poly-face-1-light)" stroke="#2563eb" stroke-width="1.4" />
+
+      <!-- Internal Spatial Axis &amp; Tessellation Wireframes -->
+      <line x1="0" y1="-75" x2="0" y2="75" stroke="#2563eb" stroke-width="1.2" stroke-dasharray="4,4" stroke-opacity="0.8" />
+      <line x1="-65" y1="-36" x2="65" y2="-36" stroke="#7c3aed" stroke-width="1" stroke-opacity="0.6" />
+      <line x1="-65" y1="-36" x2="65" y2="36" stroke="#2563eb" stroke-width="0.8" stroke-opacity="0.35" />
+      <line x1="65" y1="-36" x2="-65" y2="36" stroke="#2563eb" stroke-width="0.8" stroke-opacity="0.35" />
+
+      <!-- Outer Diamond Shell Frame -->
+      <polygon points="0,-92 80,0 0,92 -80,0" fill="none" stroke="#0284c7" stroke-width="0.8" stroke-opacity="0.3" stroke-dasharray="6,4" />
+
+      <!-- Neural Core Nodes (Vertices with Glowing Pulses) -->
+      <!-- Center Nexus Core -->
+      <circle cx="0" cy="0" r="6" fill="#2563eb" filter="url(#core-glow-light)" />
+      <circle cx="0" cy="0" r="3" fill="#ffffff" />
+
+      <!-- Vertex Nodes -->
+      <circle cx="0" cy="-75" r="4.5" fill="#0284c7">
+        <animate attributeName="opacity" values="0.7;1;0.7" dur="2.5s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="0" cy="75" r="4.5" fill="#7c3aed">
+        <animate attributeName="opacity" values="1;0.6;1" dur="2.8s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="-65" cy="-36" r="4" fill="#7c3aed" />
+      <circle cx="65" cy="-36" r="4" fill="#0284c7" />
+      <circle cx="80" cy="0" r="3.5" fill="#059669" />
+      <circle cx="-80" cy="0" r="3.5" fill="#0284c7" />
+    </g>
+
+    <!-- Satellite Intelligence Nodes &amp; Flow Paths -->
+    <g>
+      <circle cx="-95" cy="-70" r="3" fill="#059669">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="2.2s" repeatCount="indefinite" />
+      </circle>
+      <line x1="-95" y1="-70" x2="-65" y2="-36" stroke="#059669" stroke-width="0.8" stroke-opacity="0.4" stroke-dasharray="2,3" />
+
+      <circle cx="105" cy="-55" r="3" fill="#0284c7">
+        <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2.7s" repeatCount="indefinite" />
+      </circle>
+      <line x1="105" y1="-55" x2="65" y2="-36" stroke="#0284c7" stroke-width="0.8" stroke-opacity="0.4" stroke-dasharray="2,3" />
+
+      <circle cx="90" cy="70" r="3" fill="#e11d48">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="3.1s" repeatCount="indefinite" />
+      </circle>
+      <line x1="90" y1="70" x2="65" y2="-36" stroke="#e11d48" stroke-width="0.8" stroke-opacity="0.4" stroke-dasharray="2,3" />
+    </g>
+
+    <!-- Technical Micro-Annotations around 3D Geometry -->
+    <g font-family="'JetBrains Mono', monospace" font-size="9" fill="#64748b" letter-spacing="0.8">
+      <text x="-120" y="-85" text-anchor="end">// TENSOR_LATENT: 0x4A</text>
+      <text x="120" y="-70" text-anchor="start">// SHADER: GLSL_PBR</text>
+      <text x="110" y="85" text-anchor="start">// 60FPS_WEBGL</text>
+    </g>
+  </g>
+
+  <!-- BOTTOM ACCENT CALIBRATION RULE -->
+  <g transform="translate(48, 332)">
+    <rect x="0" y="0" width="864" height="1.5" fill="url(#line-flow-grad-light)" />
+    <!-- Fine Calibration Ticks -->
+    <line x1="160" y1="-3" x2="160" y2="4" stroke="#0284c7" stroke-width="1" stroke-opacity="0.5" />
+    <line x1="432" y1="-3" x2="432" y2="4" stroke="#7c3aed" stroke-width="1" stroke-opacity="0.6" />
+    <line x1="700" y1="-3" x2="700" y2="4" stroke="#059669" stroke-width="1" stroke-opacity="0.5" />
+  </g>
+</svg>

@@ -1,19 +1,15 @@
 <div align="center">
 
-  <!-- 01. MAIN HERO BANNER (PREMIUM CUSTOM PERSONAL IDENTITY) -->
-  <img src="./assets/kausik-banner.png" alt="Kausik Hussain — AI / ML · 3D Web · Full-Stack" width="100%" />
+  <!-- 01. SIGNATURE HERO VISUAL (AI × 3D × ENGINEERING — THEME-AWARE DUAL ASSET) -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-signature-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero-signature-light.svg">
+    <img src="./assets/hero-signature-dark.svg" alt="Kausik Hussain — AI × 3D × Engineering" width="100%" />
+  </picture>
 
   <br /><br />
 
-  <!-- 02. ONE-LINE POSITIONING -->
-  <p style="font-family: monospace; font-size: 13px; color: #38bdf8; letter-spacing: 2px; font-weight: 700; margin: 0 0 6px 0;">
-    AI / ML &nbsp;·&nbsp; 3D WEB &nbsp;·&nbsp; FULL-STACK &nbsp;·&nbsp; CREATIVE ENGINEERING
-  </p>
-  <h3 style="color: #f1f5f9; letter-spacing: 1.2px; font-size: 16px; font-weight: 600; margin: 0 0 16px 0;">
-    BUILDING INTELLIGENT SYSTEMS AND IMMERSIVE DIGITAL EXPERIENCES.
-  </h3>
-
-  <!-- 03. KEY ACTION LINKS -->
+  <!-- 02. DIRECT ACTION NAVIGATION -->
   <a href="https://kausik-portfolio-psi.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/PORTFOLIO-2563EB?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
