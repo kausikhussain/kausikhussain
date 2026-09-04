@@ -1,21 +1,19 @@
 <div align="center">
 
-  <!-- 01. MAIN HERO BANNER (3D ISOMETRIC POLYHEDRON + NEURAL LATTICE) -->
-  <img src="./assets/header-banner.svg" alt="Kausik Hussain — AI/ML · 3D Web · Full-Stack" width="100%" />
+  <!-- 01. MAIN HERO BANNER (PREMIUM CUSTOM PERSONAL IDENTITY) -->
+  <img src="./assets/kausik-banner.png" alt="Kausik Hussain — AI / ML · 3D Web · Full-Stack" width="100%" />
 
-  <!-- 02. CYCLING HEADLINE (SELF-HOSTED REPOSITORY SVG — ZERO BROKEN LINKS) -->
-  <img src="./assets/hero-headline.svg" alt="Engineering Mission &amp; Core Focus" width="100%" />
+  <br /><br />
 
-  <br />
-
-  <!-- 03. SIGNATURE SYSTEM STATUS BAR -->
-  <p>
-    <kbd style="background-color: #080c14; color: #38bdf8; border: 1px solid #1e293b; padding: 4px 10px; font-family: monospace; font-size: 12px; font-weight: 600;">LAB : DIGITAL_INTELLIGENCE_HQ</kbd> &nbsp;•&nbsp;
-    <kbd style="background-color: #080c14; color: #c084fc; border: 1px solid #1e293b; padding: 4px 10px; font-family: monospace; font-size: 12px; font-weight: 600;">FOCUS : AI × 3D × SYSTEMS</kbd> &nbsp;•&nbsp;
-    <kbd style="background-color: #080c14; color: #34d399; border: 1px solid #1e293b; padding: 4px 10px; font-family: monospace; font-size: 12px; font-weight: 600;">MODE : DESIGN × ENGINEER × SHIP</kbd>
+  <!-- 02. ONE-LINE POSITIONING -->
+  <p style="font-family: monospace; font-size: 13px; color: #38bdf8; letter-spacing: 2px; font-weight: 700; margin: 0 0 6px 0;">
+    AI / ML &nbsp;·&nbsp; 3D WEB &nbsp;·&nbsp; FULL-STACK &nbsp;·&nbsp; CREATIVE ENGINEERING
   </p>
+  <h3 style="color: #f1f5f9; letter-spacing: 1.2px; font-size: 16px; font-weight: 600; margin: 0 0 16px 0;">
+    BUILDING INTELLIGENT SYSTEMS AND IMMERSIVE DIGITAL EXPERIENCES.
+  </h3>
 
-  <!-- 04. DIRECT ACTION NAVIGATION -->
+  <!-- 03. KEY ACTION LINKS -->
   <a href="https://kausik-portfolio-psi.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/PORTFOLIO-2563EB?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
