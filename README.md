@@ -10,7 +10,7 @@
   <br /><br />
 
   <!-- 02. DIRECT ACTION NAVIGATION -->
-  <a href="https://kausik-portfolio-psi.vercel.app/" target="_blank">
+  <a href="https://kausikhussain-portfolio.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/PORTFOLIO-2563EB?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
   &nbsp;
@@ -272,7 +272,7 @@
       </ul>
       <p>
         <a href="https://github.com/kausikhussain/Jansehat"><b>📁 Repository</b></a> &nbsp;|&nbsp;
-        <a href="https://kausik-portfolio-psi.vercel.app/"><b>🚀 Project Showcase</b></a>
+        <a href="https://kausikhussain-portfolio.vercel.app/"><b>🚀 Project Showcase</b></a>
       </p>
     </td>
   </tr>
@@ -556,7 +556,7 @@ active_explorations = {
 
   <br />
 
-  <a href="https://kausik-portfolio-psi.vercel.app/" target="_blank">
+  <a href="https://kausikhussain-portfolio.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/EXPLORE%20PORTFOLIO-2563EB?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
   &nbsp;
